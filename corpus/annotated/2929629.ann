@@ -1,0 +1,65 @@
+T1004	mode 218 227	ingestion
+T1005	dosage 239 244	75 mg
+T1006	drug 290 309	phenylpropanolamine
+T1007	component 334 342	caffeine
+T1008	dosage 419 424	75 mg
+T1009	dosage 430 436	150 mg
+T10010	dosage 442 447	75 mg
+T10011	drug 448 451	PPA
+T10012	dosage 457 463	400 mg
+T10013	component 464 472	caffeine
+T10014	dosage 474 480	400 mg
+T10015	component 481 489	caffeine
+T10016	studyType 561 603	double-blind, randomized, crossover design
+T10019	mode 795 804	ingestion
+T10021	dosage 869 875	150 mg
+T10022	drug 876 879	PPA
+T10024	dosage 890 895	75 mg
+T10025	drug 896 899	PPA
+T10026	dosage 905 911	400 mg
+T10029	mode 953 962	ingestion
+T10030	dosage 966 971	75 mg
+T10031	drug 972 975	PPA
+T10033	dosage 986 992	400 mg
+T10034	component 993 1001	caffeine
+T10037	dosage 1049 1055	150 mg
+T10038	drug 1056 1059	PPA
+T10039	value 1064 1089	173 +/- 9/103 +/- 4 mm Hg
+T10043	dosage 1258 1264	150 mg
+T10044	drug 1265 1268	PPA
+T10047	drug 1459 1462	PPA
+T10048	drug 1574 1577	PPA
+T10050	drug 1830 1833	PPA
+T10051	component 1851 1859	caffeine
+T10052	meal 70 79	diet aids
+T10054	drug 311 314	PPA
+T10055	drug 425 428	PPA
+T10056	drug 437 440	PPA
+T10023	food 912 920	caffeine
+T10036	interaction 821 830	increases
+T10058	interaction 1299 1324	substantially elevates BP
+T10061	pathology 1386 1422	nontraumatic intracranial hemorrhage
+T10049	drug 1865 1868	PPA
+T10045	dosage 249 261	double doses
+T10063	meal 1288 1297	diet aids
+T10064	drugClass 269 284	sympathomimetic
+T2002	drug 50 69	phenylpropanolamine
+T2003	studyType 111 145	placebo-controlled follow-up study
+T20040	value 1105 1129	148 +/- 4/97 +/- 3 mm Hg
+T20046	population 1426 1448	young, healthy persons
+T20053	component 99 107	caffeine
+T20057	population 507 540	16 resting, normotensive subjects
+T2001	pathology 17 39	Transient hypertension
+T20017	function 745 759	blood pressure
+T20018	function 761 763	BP
+T20020	function 818 820	BP
+T20027	function 934 936	BP
+T20035	function 1036 1038	BP
+T20060	function 1193 1195	BP
+T20042	value 1204 1229	137 +/- 8/85 +/- 5 mm Hg.
+T20058	function 1322 1324	BP
+T20065	studyType 1370 1382	case reports
+T20066	dosage 1466 1506	recommended or minimally greater dosages
+T1	interaction 922 946	Significant BP increases
+R1	physiological_effect_potentiation Arg1:T10023 Arg2:T10025	
+R2	physiological_effect_potentiation Arg1:T10034 Arg2:T10031	

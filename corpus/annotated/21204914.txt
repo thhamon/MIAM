@@ -1,0 +1,8 @@
+Title (21204914): Orange and apple juice greatly reduce the plasma concentrations of the OATP2B1 substrate aliskiren.
+
+Abstract (21204914):
+The aim of this study was to investigate the effects of orange juice and apple juice on the pharmacokinetics and pharmacodynamics of aliskiren.
+In a randomized crossover study, 12 healthy volunteers ingested 200 ml of orange juice, apple juice or water three times daily for 5 days. On day 3, they ingested a single 150-mg dose of aliskiren. Plasma aliskiren concentrations were measured up to 72 h, its excretion into urine up to 12 h and plasma renin activity up to 24 h.
+Orange and apple juice reduced aliskiren peak plasma concentrations by 80% (95% CI 63%, 89%, P < 0.001) and 84% (95% CI 72%, 91%, P < 0.001), and the area under the plasma aliskiren concentration-time curve (AUC) by 62% (95% CI 47%, 72%, P < 0.001) and 63% (95% CI 46%, 74%, P < 0.001), respectively, but had no significant effect on its elimination half-life or renal clearance. The decreases in aliskiren AUC by orange and apple juice correlated with aliskiren AUC during the water phase (r= 0.98, P < 0.001). Plasma renin activity was 87% and 67% higher at 24 h after aliskiren during the orange juice and apple juice phases, respectively, than during the water phase (P < 0.05).
+Orange juice and apple juice greatly reduce the plasma concentrations and renin-inhibiting effect of aliskiren, probably by inhibiting its OATP2B1-mediated influx in the small intestine. Concomitant intake of aliskiren with orange or apple juice is best avoided.
+© 2011 The Authors. British Journal of Clinical Pharmacology © 2011 The British Pharmacological Society.

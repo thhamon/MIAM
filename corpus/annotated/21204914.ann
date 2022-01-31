@@ -1,0 +1,89 @@
+T1001	food 18 24	Orange
+T1002	food 29 40	apple juice
+T1004	pharmacokinetics 60 81	plasma concentrations
+T1006	food 196 208	orange juice
+T1007	food 213 224	apple juice
+T1008	pharmacokinetics 232 248	pharmacokinetics
+T1009	drug 273 282	aliskiren
+T10010	studyType 289 315	randomized crossover study
+T10011	population 317 338	12 healthy volunteers
+T10012	mode 339 347	ingested
+T10013	dosage 348 354	200 ml
+T10014	food 358 370	orange juice
+T10015	food 372 383	apple juice
+T10016	food 387 392	water
+T10017	frequency 393 410	three times daily
+T10018	mode 438 446	ingested
+T10019	frequency 449 455	single
+T10020	dosage 456 462	150-mg
+T10024	food 625 636	apple juice
+T10025	interaction 637 644	reduced
+T10026	drug 645 654	aliskiren
+T10027	pharmacokinetics 655 681	peak plasma concentrations
+T10028	value 722 725	84%
+T10029	drug 786 795	aliskiren
+T10030	pharmacokinetics 796 820	concentration-time curve
+T10031	pharmacokinetics 822 825	AUC
+T10032	value 867 870	63%
+T10033	pharmacokinetics 952 973	elimination half-life
+T10034	pharmacokinetics 977 992	renal clearance
+T10035	interaction 998 1007	decreases
+T10036	drug 1011 1020	aliskiren
+T10037	pharmacokinetics 1021 1024	AUC
+T10038	food 1028 1034	orange
+T10039	food 1039 1050	apple juice
+T10040	drug 1067 1076	aliskiren
+T10041	pharmacokinetics 1077 1080	AUC
+T10042	food 1092 1097	water
+T10043	value 1152 1163	87% and 67%
+T10044	drug 1185 1194	aliskiren
+T10045	food 1206 1218	orange juice
+T10046	food 1223 1234	apple juice
+T10047	food 1273 1278	water
+T10048	food 1297 1309	Orange juice
+T10049	food 1314 1325	apple juice
+T10050	interaction 1334 1340	reduce
+T10051	pharmacokinetics 1345 1366	plasma concentrations
+T10052	drug 1398 1407	aliskiren
+T10053	drug 1506 1515	aliskiren
+T10054	food 1521 1527	orange
+T10055	food 1531 1542	apple juice
+T10058	duration 411 421	for 5 days
+T10061	food 614 620	Orange
+T10062	value 685 688	80%
+T10063	value 697 705	63%, 89%
+T10064	value 734 742	72%, 91%
+T10065	pharmacokinetics 764 785	area under the plasma
+T10067	value 830 835	62% (
+T10068	value 842 851	47%, 72%,
+T10069	value 879 888	46%, 74%,
+T10070	interaction 923 944	no significant effect
+T10072	drugEffect 1371 1394	renin-inhibiting effect
+T10073	enzyme 1436 1443	OATP2B1
+T10074	pharmacokinetics 97 106	substrate
+T10057	mealTime 1484 1502	Concomitant intake
+T2005	enzyme 89 96	OATP2B1
+T20021	drug 489 498	aliskiren
+T20056	drug 107 116	aliskiren
+T20059	drug 471 480	aliskiren
+T20060	pharmacokinetics 544 564	excretion into urine
+T2003	interaction 41 55	greatly reduce
+T20023	parameter 580 601	plasma renin activity
+T20065	parameter 1126 1147	Plasma renin activity
+T20072	interaction 1421 1431	inhibiting
+T20057	other 253 269	pharmacodynamics
+T20071	mode 1496 1502	intake
+T2	pharmacokinetics 482 488;499 513	Plasma concentrations
+R1	decrease_pharmacokinetic_parameter Arg1:T10061 Arg2:T10026	
+R2	decrease_pharmacokinetic_parameter Arg1:T10024 Arg2:T10026	
+R3	decrease_pharmacokinetic_parameter Arg1:T10038 Arg2:T10036	
+R4	decrease_pharmacokinetic_parameter Arg1:T10039 Arg2:T10036	
+R5	physiological_effect_antagonism Arg1:T10045 Arg2:T10044	
+R6	physiological_effect_antagonism Arg1:T10046 Arg2:T10044	
+R7	decrease_pharmacokinetic_parameter Arg1:T10048 Arg2:T10052	
+R8	decrease_pharmacokinetic_parameter Arg1:T10049 Arg2:T10052	
+R9	decrease_pharmacokinetic_parameter Arg1:T10061 Arg2:T10029	
+R10	decrease_pharmacokinetic_parameter Arg1:T10024 Arg2:T10029	
+R11	absorption_decrease Arg1:T10049 Arg2:T10052	
+R12	absorption_decrease Arg1:T10049 Arg2:T10052	
+#1	AnnotatorNotes R11	à nuancer par le terme "probably"

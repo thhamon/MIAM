@@ -1,0 +1,70 @@
+T1	interaction 1004 1012	exceeded
+T2	parameter 1017 1040	upper therapeutic limit
+T3	meal 1042 1059	Dietary vitamin K
+T4	component 1050 1059	vitamin K
+T5	pathology 1132 1153	unwanted disturbances
+T6	drug 1157 1165	warfarin
+T7	interaction 1166 1173	induced
+T8	drugEffect 1174 1189	anticoagulation
+T9	meal 122 147	vitamin-K-poor vegetables
+T10	component 122 131	vitamin-K
+T11	meal 14 31	dietary vitamin K
+T12	drug 152 166	phytomenadione
+T13	drug 187 195	warfarin
+T14	interaction 196 203	induced
+T15	drugEffect 204 219	anticoagulation
+T16	component 22 31	vitamin K
+T17	population 221 229	Patients
+T18	drugClass 240 263	anticoagulant treatment
+T19	studyType 269 279	randomized
+T20	duration 290 291	1
+T21	duration 301 302	2
+T22	duration 314 315	7
+T23	duration 325 326	d
+T24	dosage 332 343	high intake
+T25	meal 347 372	vitamin-K-rich vegetables
+T26	component 347 356	vitamin-K
+T27	drug 35 43	warfarin
+T28	frequency 381 386	daily
+T29	component 387 396	vitamin K
+T30	dosage 404 419	1100 micrograms
+T31	dosage 424 435	high intake
+T32	meal 439 464	vitamin-K-poor vegetables
+T33	component 439 448	vitamin-K
+T34	interaction 44 51	induced
+T35	frequency 466 471	daily
+T36	component 472 481	vitamin K
+T37	dosage 489 503	135 micrograms
+T38	duration 509 512	6 d
+T39	drugEffect 52 67	anticoagulation
+T40	meal 525 538	habitual diet
+T41	dosage 557 572	1000 micrograms
+T42	drug 576 590	phytomenadione
+T43	frequency 591 596	daily
+T44	population 606 619	Nine patients
+T45	value 621 640	69%; 95% CI, 39-91%
+T46	meal 655 680	vitamin-K-rich vegetables
+T47	component 655 664	vitamin-K
+T48	duration 685 688	7 d
+T49	parameter 697 707	activities
+T50	interaction 708 735	above the therapeutic level
+T51	population 737 740;762 780	Two and three patients
+T52	value 742 760	40%; 95% CI, 5-85%
+T53	value 782 801	43%; 95% CI, 10-86%
+T54	meal 816 841	vitamin-K-rich vegetables
+T55	component 816 825	vitamin-K
+T56	duration 846 855	1 and 2 d
+T57	interaction 871 879	exceeded
+T58	parameter 884 907	upper therapeutic limit
+T59	interaction 909 919	No changes
+T60	component 941 950	vitamin-K
+T61	meal 941 955	vitamin-K-poor
+T62	population 941 961	vitamin-K-poor group
+T63	meal 95 120	vitamin-K-rich vegetables
+T64	component 95 104	vitamin-K
+T65	drug 989 1003	phytomenadione
+A1	valence T57 Excès
+A2	valence T59 Négation
+A3	valence T50 Augmentation
+A4	valence T1 Excès
+R1	physiological_effect_antagonism Arg1:T4 Arg2:T6	

@@ -1,0 +1,70 @@
+T1	value 1020 1028	4.3-fold
+T2	food 1063 1079	grapefruit juice
+T3	dosage 1099 1108	one glass
+T4	frequency 11 30	regular consumption
+T5	food 1112 1128	grapefruit juice
+T6	pharmacokinetics 113 133	substrate for CYP3A4
+T7	frequency 1136 1141	daily
+T8	interaction 1156 1165	increases
+T9	pharmacokinetics 1170 1191	plasma concentrations
+T10	drug 1195 1206	simvastatin
+T11	drug 1211 1227	simvastatin acid
+T12	food 1229 1245	Grapefruit juice
+T13	interaction 1250 1258	increase
+T14	drugEffect 1268 1295	cholesterol-lowering effect
+T15	parameter 1268 1279	cholesterol
+T16	enzyme 127 132	CYP3A
+T17	pathology 1312 1327	adverse effects
+T18	drug 1331 1342	simvastatin
+T19	pharmacokinetics 138 161	extensively metabolized
+T20	pharmacokinetics 173 183	first pass
+T21	frequency 226 245	regular consumption
+T22	food 249 265	grapefruit juice
+T23	pharmacokinetics 273 289	pharmacokinetics
+T24	drug 293 304	simvastatin
+T25	studyType 320 363	randomized cross-over study with two phases
+T26	food 34 50	grapefruit juice
+T27	population 365 386	10 healthy volunteers
+T28	mode 387 395	ingested
+T29	food 396 412	grapefruit juice
+T30	dosage 413 419	200 ml
+T31	food 423 428	water
+T32	duration 439 449	for 3 days
+T33	dosage 463 475	single 40-mg
+T34	drug 484 495	simvastatin
+T35	mealTime 513 517	with
+T36	food 518 534	grapefruit juice
+T37	dosage 535 541	200 ml
+T38	food 545 550	water
+T39	pharmacokinetics 552 573	Plasma concentrations
+T40	drug 577 588	simvastatin
+T41	pharmacokinetics 58 74	pharmacokinetics
+T42	drug 593 609	simvastatin acid
+T43	food 647 663	Grapefruit juice
+T44	interaction 664 673	increased
+T45	pharmacokinetics 678 692;719 725	area under the curves
+T46	pharmacokinetics 742 745	AUC
+T47	drug 756 767	simvastatin
+T48	value 768 776	3.6-fold
+T49	drug 78 89	simvastatin
+T50	drug 820 836	simvastatin acid
+T51	value 837 845	3.3-fold
+T52	pharmacokinetics 896 915	peak concentrations
+T53	pharmacokinetics 917 923	C(max)
+T54	drug 928 939	simvastatin
+T55	drug 944 960	simvastatin acid
+T56	interaction 966 975	increased
+T57	value 976 984	3.9-fold
+T58	drug 98 109	Simvastatin
+A1	valence T56 Augmentation
+A2	valence T44 Augmentation
+A3	valence T13 Augmentation
+A4	valence T8 Augmentation
+R1	metabolism_decrease Arg1:T43 Arg2:T47	
+R2	metabolism_decrease Arg1:T2 Arg2:T55	
+R3	metabolism_decrease Arg1:T2 Arg2:T54	
+R4	metabolism_decrease Arg1:T5 Arg2:T10	
+R5	metabolism_decrease Arg1:T5 Arg2:T11	
+R6	physiological_effect_antagonism Arg1:T12 Arg2:T18	
+#1	AnnotatorNotes R6	Impact clinique
+R7	metabolism_decrease Arg1:T43 Arg2:T50	

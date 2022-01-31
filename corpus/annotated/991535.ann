@@ -1,0 +1,57 @@
+T1	drug 65 75	antipyrine
+T2	drug 80 92	theophylline
+T3	pharmacokinetics 93 103	metabolism
+T4	pharmacokinetics 245 254	oxidation
+T5	drug 258 268	antipyrine
+T6	drug 273 285	theophylline
+T8	drug 437 447	antipyrine
+T9	interaction 448 457	decreased
+T11	pharmacokinetics 490 499	half-life
+T12	drug 503 515	theophylline
+T13	interaction 516 525	decreased
+T15	drug 678 688	antipyrine
+T16	pharmacokinetics 689 698	half-life
+T17	drug 745 757	theophylline
+T18	pharmacokinetics 758 767	half-life
+T19	pharmacokinetics 818 828	half-lives
+T21	pharmacokinetics 870 879	clearance
+T22	interaction 1182 1190	increase
+T23	interaction 1249 1257	decrease
+T24	pharmacokinetics 1359 1376	biotransformation
+T25	meal 29 44	dietary protein
+T26	meal 49 61	carbohydrate
+T27	population 312 331	6 normal volunteers
+T28	meal 197 229	dietary carbohydrate and protein
+T29	meal 376 411	low carbohydrate-high protein diets
+T7	pharmacokinetics 417 433	plasma half-life
+A1	valence T9 Diminution
+T10	value 463 470	16.2 hr
+T30	value 474 480	9.5 hr
+A2	valence T13 Diminution
+T31	value 531 537	8.1 hr
+T32	value 541 547	5.2 hr
+T33	meal 591 626	low carbohydrate-high protein diets
+T34	meal 632 667	high carbohydrate-low protein diets
+T14	interaction 699 708	increased
+A3	valence T14 Augmentation
+T35	value 714 720	9.5 hr
+T36	value 724 731	15.6 hr
+T37	interaction 768 777	increased
+A4	valence T37 Augmentation
+T38	value 783 789	5.2 hr
+T39	value 793 800	7.6 hr.
+T20	pharmacokinetics 901 933	apparent volumes of distribution
+T41	meal 1063 1119	standard diets supplemented with carbohydrate or protein
+T42	meal 1121 1171	Supplementing the standard diets with carbohydrate
+A5	valence T22 Augmentation
+T43	pharmacokinetics 1199 1209	half-lives
+T44	meal 1221 1239	protein supplement
+A6	valence T23 Diminution
+T45	pharmacokinetics 1270 1280	half-lives
+T46	population 107 110	man
+T47	population 289 292	man
+T48	meal 356 372	usual home diets
+T49	meal 1032 1046	standard diets
+T40	population 1389 1392	man
+R3	enzyme_induction Arg1:T33 Arg2:T15	
+R4	enzyme_inhibition Arg1:T34 Arg2:T15	

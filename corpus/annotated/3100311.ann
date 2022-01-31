@@ -1,0 +1,64 @@
+T1004	drug 79 88	aluminium
+T1006	dosage 199 211	single doses
+T1007	drug 215 224	aluminium
+T1008	drug 288 297	aluminium
+T1009	dosage 306 312	244 mg
+T10010	mode 313 319	tablet
+T10011	food 361 366	water
+T10016	drug 471 480	aluminium
+T10020	food 620 625	water
+T10021	interaction 641 661	significant increase
+T10023	interaction 792 800	increase
+T10024	pharmacokinetics 809 826	urinary excretion
+T10025	drug 830 839	aluminium
+T10026	pharmacokinetics 864 874	absorption
+T10027	drug 878 887	aluminium
+T10029	interaction 892 913	8 and 50 times higher
+T10030	food 944 956	orange juice
+T10031	component 965 976	citric acid
+T10032	food 1013 1018	water
+T10033	drug 1051 1060	aluminium
+T10034	mode 1086 1090	oral
+T10035	pharmacokinetics 1114 1124	absorption
+T10036	mode 1166 1175	ingestion
+T10037	component 1179 1190	citric acid
+T10039	population 138 177	Ten subjects with normal renal function
+T10040	drugClass 236 244	antacids
+T10041	dosage 246 256	1, 4, or 8
+T10042	drugClass 271 278	antacid
+T10043	mode 279 286	tablets
+T10044	mode 257 264	tablets
+T10046	drugClass 595 603	antacids
+T10047	dosage 709 710	4
+T10048	drugClass 769 776	antacid
+T10049	drugClass 919 927	antacids
+T10028	drugClass 1100 1108	antacids
+T10050	dosage 1079 1085	single
+T10051	interaction 1142 1150	enhanced
+T10052	pharmacokinetics 17 44	Gastrointestinal absorption
+T1001	mode 328 348	chewed and swallowed
+T10053	dosage 725 726	1
+T10054	dosage 735 736	8
+T10055	mode 737 744	tablets
+T10057	pharmacokinetics 1065 1073	absorbed
+T2002	drug 48 57	aluminium
+T2005	population 112 115	man
+T20012	food 373 385	orange juice
+T20013	component 395 406	citric acid
+T20014	interaction 429 444	marked increase
+T20017	mode 503 511	ingested
+T20018	component 517 528	citric acid
+T20019	food 557 569	orange juice
+T20038	drugClass 100 108	antacids
+T20045	drugClass 490 498	antacids
+T20022	pharmacokinetics 665 694	serum aluminium concentration
+T2003	dosage 63 75	single doses
+T20015	pharmacokinetics 448 467	serum concentration
+T1	mealTime 1154 1175	concomitant ingestion
+R1	absorption_increase Arg1:T10030 Arg2:T10027	
+R2	absorption_increase Arg1:T10031 Arg2:T10027	
+R3	absorption_increase Arg1:T10031 Arg2:T10049	
+R4	absorption_increase Arg1:T10030 Arg2:T10049	
+R5	absorption_increase Arg1:T10037 Arg2:T10033	
+R6	increase_pharmacokinetic_parameter Arg1:T20018 Arg2:T10016	
+R7	increase_pharmacokinetic_parameter Arg1:T20019 Arg2:T10016	

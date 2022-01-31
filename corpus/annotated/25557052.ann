@@ -1,0 +1,68 @@
+T1	food 28 44	grapefruit juice
+T3	drug 122 131	prasugrel
+T5	food 231 247	Grapefruit juice
+T6	pharmacokinetics 251 269	strong inactivator
+T7	food 420 436	grapefruit juice
+T8	studyType 456 482	randomized crossover study
+T9	population 484 508	seven healthy volunteers
+T10	mode 509 517	ingested
+T11	dosage 518 524	200 ml
+T12	food 528 544	grapefruit juice
+T13	food 548 553	water
+T15	duration 576 582	4 days
+T16	mode 599 607	ingested
+T17	frequency 610 616	single
+T18	dosage 617 622	10 mg
+T19	drug 631 640	prasugrel
+T20	dosage 660 666	200 ml
+T21	food 670 686	grapefruit juice
+T22	food 690 695	water
+T23	pharmacokinetics 697 718	Plasma concentrations
+T24	drug 722 743	prasugrel metabolites
+T25	food 787 803	Grapefruit juice
+T26	interaction 804 813	increased
+T27	pharmacokinetics 881 884	AUC
+T28	drug 930 939	prasugrel
+T29	pharmacokinetics 1079 1085	C(max)
+T30	pharmacokinetics 1092 1098	C(max)
+T31	pharmacokinetics 1103 1106	AUC
+T32	interaction 1153 1162	decreased
+T33	value 1166 1169	51%
+T34	value 1218 1221	74%
+T35	food 1290 1306	grapefruit juice
+T37	drug 1404 1413	prasugrel
+T40	food 1508 1524	grapefruit juice
+T41	food 1543 1548	water
+T42	food 1568 1584	Grapefruit juice
+T43	interaction 1585 1592	reduces
+T45	drug 69 78	prasugrel
+T46	pharmacokinetics 52 65	bioactivation
+T2	enzyme 284 290	CYP3A4
+T4	enzyme 204 229	cytochrome P450 (CYP) 3A4
+T47	drugEffect 327 347	antiplatelet effects
+T48	drug 351 362	clopidogrel
+T49	drug 440 449	prasugrel
+T50	drugEffect 752 771	antiplatelet effect
+T51	value 943 947	164%
+T52	drugEffect 1331 1350	platelet inhibition
+T36	value 1426 1445	5 percentage points
+T38	drug 1614 1623	prasugrel
+T39	pharmacokinetics 1597 1610	bioactivation
+T53	drugEffect 1667 1686	antiplatelet effect
+T54	drug 1690 1699	prasugrel
+T14	frequency 554 571	three times daily
+T44	pharmacokinetics 818 879	geometric mean area under the plasma concentration-time curve
+T55	enzyme 106 111	P2Y12
+T56	interaction 300 307	reduces
+T57	drug 137 144	prodrug
+T58	interaction 112 121	inhibitor
+T59	pharmacokinetics 312 322	activation
+T60	drug 907 926	inactive metabolite
+T61	drug 1130 1147	active metabolite
+T62	pharmacokinetics 1052 1077	peak plasma concentration
+R1	enzyme_inhibition Arg1:T5 Arg2:T48	
+R2	metabolism_decrease Arg1:T5 Arg2:T48	
+R4	metabolism_decrease Arg1:T25 Arg2:T28	
+R6	enzyme_inhibition Arg1:T42 Arg2:T38	
+R7	metabolism_decrease Arg1:T42 Arg2:T38	
+R3	enzyme_inhibition Arg1:T25 Arg2:T28	

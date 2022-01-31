@@ -1,0 +1,110 @@
+T1	food 0 12	Fruit juices
+T2	pharmacokinetics 102 114	availability
+T3	parameter 1033 1039	IC(50)
+T4	food 1071 1081	grapefruit
+T5	food 1083 1089	orange
+T6	food 1095 1107	apple juices
+T7	dosage 1111 1132	5% of normal strength
+T8	interaction 1142 1149	reduced
+T9	enzyme 1156 1160	OATP
+T10	enzyme 1169 1173	oatp
+T11	drug 118 130	fexofenadine
+T12	component 1184 1210	6',7'-Dihydroxybergamottin
+T13	enzyme 1234 1239	oatp3
+T14	enzyme 1244 1249	oatp1
+T15	parameter 1251 1257	IC(50)
+T16	component 1283 1298	furanocoumarins
+T17	interaction 13 20	inhibit
+T18	component 1303 1316	bioflavonoids
+T19	interaction 1322 1329	reduced
+T20	enzyme 1334 1339	oatp3
+T21	food 1350 1360	Grapefruit
+T22	food 1362 1368	orange
+T23	food 1374 1386	apple juices
+T24	interaction 1387 1396	decreased
+T25	drug 1401 1413	fexofenadine
+T26	pharmacokinetics 1414 1460	area under the plasma concentration-time curve
+T27	pharmacokinetics 1462 1465	AUC
+T28	pharmacokinetics 1472 1483;1489 1502	peak plasma concentration
+T29	pharmacokinetics 1504 1510	C(max)
+T30	pharmacokinetics 1521 1538	urinary excretion
+T31	value 1549 1552	30%
+T32	value 1556 1559	40%
+T33	food 1574 1579	water
+T34	interaction 1581 1595	with no change
+T35	pharmacokinetics 1617 1623	C(max)
+T36	pharmacokinetics 1625 1646	elimination half-life
+T37	pharmacokinetics 1648 1663	renal clearance
+T38	pharmacokinetics 1668 1680	urine volume
+T39	population 1684 1690	humans
+T40	drug 1702 1714	fexofenadine
+T41	pharmacokinetics 1715 1718	AUC
+T42	food 1724 1729	juice
+T43	food 1799 1804	water
+T44	food 1819 1831	Fruit juices
+T45	component 1836 1848	constituents
+T46	interaction 1865 1875	inhibitors
+T47	enzyme 1879 1884	OATPs
+T48	enzyme 1890 1904	P-glycoprotein
+T49	interaction 1927 1933	reduce
+T50	mode 1934 1938	oral
+T51	drug 1939 1943	drug
+T52	pharmacokinetics 1944 1959	bioavailability
+T53	food 197 203	fruits
+T54	pharmacokinetics 2008 2018	absorption
+T55	component 208 226	their constituents
+T56	enzyme 230 244	P-glycoprotein
+T57	enzyme 249 287	organic anion transporting polypeptide
+T58	enzyme 289 293	OATP
+T59	population 306 314	in vitro
+T60	pharmacokinetics 322 338	drug disposition
+T61	population 342 348	humans
+T62	enzyme 359 373	P-glycoprotein
+T63	drug 383 390	digoxin
+T64	drug 394 405	vinblastine
+T65	population 431 467	polarized epithelial cell monolayers
+T66	enzyme 469 473	OATP
+T67	drug 483 495	fexofenadine
+T68	mode 548 552	oral
+T69	dosage 573 579	120 mg
+T70	drug 580 592	fexofenadine
+T71	food 611 616	water
+T72	dosage 618 630	25%-strength
+T73	food 631 647	grapefruit juice
+T74	dosage 652 667	normal-strength
+T75	food 668 678	grapefruit
+T76	food 680 686	orange
+T77	food 691 703	apple juices
+T78	dosage 705 710	1.2 L
+T79	duration 711 723	over 3 hours
+T80	studyType 730 762	randomized 5-way crossover study
+T81	population 766 785	10 healthy subjects
+T82	food 796 812	Grapefruit juice
+T83	food 817 825	segments
+T84	food 830 841	apple juice
+T85	interaction 84 92	decrease
+T86	dosage 845 866	5% of normal strength
+T87	interaction 867 880	did not alter
+T88	enzyme 881 895	P-glycoprotein
+T89	food 906 924	Grapefruit extract
+T90	interaction 925 932	reduced
+T91	mode 97 101	oral
+#1	AnnotatorNotes T60	biodisponibilité
+A1	valence T34 Négation
+A2	valence T24 Diminution
+A3	valence T8 Diminution
+A4	valence T19 Diminution
+A5	valence T49 Diminution
+A6	valence T90 Diminution
+A7	valence T87 Négation
+A8	valence T85 Diminution
+R1	transporter_inhibition Arg1:T1 Arg2:T11	
+R2	transporter_inhibition Arg1:T21 Arg2:T25	
+R3	transporter_inhibition Arg1:T22 Arg2:T25	
+R4	transporter_inhibition Arg1:T23 Arg2:T25	
+R5	absorption_decrease Arg1:T44 Arg2:T51	
+R6	absorption_decrease Arg1:T45 Arg2:T51	
+R7	transporter_inhibition Arg1:T44 Arg2:T51	
+R8	transporter_inhibition Arg1:T45 Arg2:T51	
+R9	transporter_inhibition Arg1:T33 Arg2:T25	
+#2	AnnotatorNotes R9	absence

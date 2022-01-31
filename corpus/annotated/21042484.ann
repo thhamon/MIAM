@@ -1,0 +1,28 @@
+T1003	drug 94 102	warfarin
+T1006	food 520 536	lime fruit juice
+T1007	drug 542 550	warfarin
+T1008	mode 645 649	oral
+T10011	food 819 835	Lime fruit juice
+T10012	interaction 845 854	reduction
+T10014	drug 888 896	warfarin
+T10015	component 926 929	CAM
+T10017	drug 974 982	warfarin
+T10018	component 1028 1031	CAM
+T10019	food 126 145	Citrus aurantifolia
+T1004	population 552 621	Wistar strain albino rats of both sexes weighing between 190 and 230g
+T1005	parameter 1048 1078	international normalized ratio
+T10016	parameter 1080 1083	INR
+T10020	component 324 363	complementary and alternative medicines
+T10021	component 365 368	CAM
+T2002	food 46 62	lime fruit juice
+T20010	drug 762 770	warfarin
+T20024	interaction 505 516	interaction
+T2009	drugEffect 736 758	anticoagulant activity
+T20026	drugEffect 862 884	anticoagulant activity
+T20028	interaction 935 942	nteract
+T1	drugEffect 70 83	anticoagulant
+T2	food 196 200	food
+R1	physiological_effect_antagonism Arg1:T10011 Arg2:T10014	
+#1	AnnotatorNotes R1	diminution de l'action 2ndaire à une diminution du métabolisme (pharmacocinétique) et pas pharmocodynamie
+R2	physiological_effect_antagonism Arg1:T10011 Arg2:T20026	
+#2	AnnotatorNotes R2	diminution de l'action 2ndaire à une diminution du métabolisme (pharmacocinétique) et pas pharmocodynamie

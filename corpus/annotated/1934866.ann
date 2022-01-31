@@ -1,0 +1,66 @@
+T1	dosage 1003 1017	dose-dependent
+T2	interaction 1018 1045	attenuation of the response
+T3	drug 1049 1061	dipyridamole
+T4	interaction 1070 1102	significant negative correlation
+T5	component 1123 1131	caffeine
+T6	dosage 1149 1169	0, 1, 2, and 4 mg/kg
+T7	drug 1179 1191	dipyridamole
+T8	interaction 118 138	adenosine antagonist
+T9	interaction 1192 1210	induced increments
+T10	function 1214 1237	systolic blood pressure
+T11	function 1251 1265	pulse pressure
+T12	function 1279 1289	heart rate
+T13	parameter 1307 1328	rate-pressure product
+T14	function 1307 1320	rate-pressure
+T15	component 1377 1385	caffeine
+T16	interaction 1386 1396	attenuates
+T17	component 139 147	caffeine
+T18	drugEffect 1401 1421	hemodynamic response
+T19	drug 1425 1437	dipyridamole
+T20	mode 1438 1446	infusion
+T21	population 1450 1456	humans
+T22	dosage 1462 1476	dose-dependent
+T23	interaction 15 25	inhibition
+T24	component 1520 1528	caffeine
+T25	interaction 1535 1560	pharmacologic interaction
+T26	drugEffect 155 175	hemodynamic response
+T27	drug 1630 1642	dipyridamole
+T28	exam 1646 1677	thallium-201 myocardial imaging
+T29	drug 179 191	dipyridamole
+T30	mode 192 200	infusion
+T31	dosage 202 211	0.4 mg/kg
+T32	duration 212 225	for 4 minutes
+T33	studyType 243 295	randomized, placebo-controlled double-blind protocol
+T34	population 297 326	eight normotensive volunteers
+T35	drugEffect 33 53	hemodynamic response
+T36	drug 383 395	dipyridamole
+T37	drug 415 427	dipyridamole
+T38	mealTime 428 433	after
+T39	dosage 434 451	1, 2, and 4 mg/kg
+T40	component 452 460	caffeine
+T41	mode 462 470	Infusion
+T42	component 474 482	caffeine
+T43	dosage 490 497	4 mg/kg
+T44	interaction 499 506	induced
+T45	interaction 510 518	increase
+T46	function 522 544	mean arterial pressure
+T47	drug 57 69	dipyridamole
+T48	mode 625 633	Infusion
+T49	drug 637 649	dipyridamole
+T50	drugEffect 681 701	hemodynamic response
+T51	interaction 710 718	increase
+T52	function 722 745	systolic blood pressure
+T53	component 73 81	caffeine
+T54	function 768 782	pulse pressure
+T55	function 805 815	heart rate
+T56	parameter 846 870	calculated rate-pressure
+T57	interaction 964 971	induced
+T58	component 984 992	Caffeine
+T59	interaction 993 1000	induced
+A1	valence T45 Augmentation
+A2	valence T4 Négation
+A3	valence T16 Diminution
+A4	valence T2 Diminution
+A5	valence T51 Augmentation
+R1	physiological_effect_antagonism Arg1:T58 Arg2:T3	
+R2	physiological_effect_antagonism Arg1:T15 Arg2:T19	

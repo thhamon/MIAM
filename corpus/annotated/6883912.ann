@@ -1,0 +1,47 @@
+T1001	drug 17 30	Acetaminophen
+T1002	pharmacokinetics 31 41	metabolism
+T1003	food 58 79	charcoal-broiled beef
+T1004	food 132 153	charcoal-broiled beef
+T1005	pharmacokinetics 161 171	metabolism
+T1007	population 223 243	nine normal subjects
+T1009	pharmacokinetics 356 365	oxidation
+T10010	drug 383 405	N-acetyl-p-aminophenol
+T10013	food 481 502	charcoal-broiled beef
+T10016	drug 630 643	acetaminophen
+T10017	drug 645 670	acetaminophen glucuronide
+T10018	drug 675 696	acetaminophen sulfate
+T10020	drug 729 742	acetaminophen
+T10021	drug 744 769	acetaminophen glucuronide
+T10022	drug 771 792	acetaminophen sulfate
+T10023	drug 794 803	3-methoxy
+T10025	drug 941 954	acetaminophen
+T10026	food 1003 1024	charcoal-broiled beef
+T10028	mode 54 57	fed
+T10029	population 45 53	subjects
+T10030	meal 535 547	control diet
+T10031	drug 407 420	acetaminophen
+T10032	drug 369 379	phenacetin
+T10033	drug 804 817	acetaminophen
+T10037	pharmacokinetics 192 203	conjugation
+T10038	food 266 270	beef
+T1008	pharmacokinetics 311 331	oxidative metabolism
+T10039	interaction 579 598	little or no effect
+T10040	pharmacokinetics 931 940	conjugate
+T10041	interaction 977 999	little or no influence
+T10042	pharmacokinetics 1128 1144	drug conjugation
+T2006	drug 175 188	acetaminophen
+T20011	population 426 446	nine normal subjects
+T20012	meal 450 462	control diet
+T20014	food 553 574	charcoal-broiled beef
+T20015	pharmacokinetics 606 618	plasma-level
+T20019	pharmacokinetics 708 725	urinary excretion
+T20024	drug 870 883	acetaminophen
+T20027	interaction 1057 1065	increase
+T20034	drug 826 834	cysteine
+T20035	drug 839 855	mercapturic acid
+T20036	pharmacokinetics 1066 1081	drug oxidations
+T20040	interaction 295 306	accelerates
+T2008	enzyme 911 925	enzyme systems
+T20045	meal 481 508	charcoal-broiled beef diet,
+R2	metabolism_increase Arg1:T10038 Arg2:T10032	
+#1	AnnotatorNotes T10038	Pertinent? Résultats d'une étude précédente non précisée...

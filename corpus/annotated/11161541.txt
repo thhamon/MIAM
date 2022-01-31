@@ -1,0 +1,8 @@
+Title (11161541): Parenteral nutrition and cyclosporine: do lipids make a difference? A prospective randomized crossover trial.
+
+Abstract (11161541):
+This prospective, controlled, randomized crossover trial was conducted to assess the effects of parenteral nutrition, with or without lipids, in cyclosporine (CyA) pharmacokinetics.
+10 adult patients were randomized on the day of allogeneic bone marrow transplantation to receive isocaloric and isonitrogenous parenteral nutrition admixtures without (regimen A) or with lipids (regimen B). Admixtures were started on average by day + 7.4; 5 patients received regimen A followed by B, 5 in reverse order. Blood samples were collected at day 4 after transplantation, under oral diet, and 4 days after the initiation of each regimen as the sole nutrition support. At each time point, 8 whole blood samples were analysed for CyA to evaluate: area under the curve (AUC), trough concentration and systemic clearance. Clinical/laboratory events were recorded until 31 months of follow-up.
+There was no evidence of a period or treatment-by period interaction, thus results were combined for further analysis. There were no statistically significant differences between regimens in any CyA pharmacokinetic parameters; there were no significant differences from baseline values, except for a higher systemic clearance of CyA with regimen A (0.40+/-0.09 vs 0.29+/-0.06 L/Kg/h, p=0.03).
+The provision of 0.8 g/Kg/d of a 50:50 mixture of medium and long chain triglycerides did not affect CyA parameters, which were closer to baseline. In the short or long term there were no attributable side effects.
+Copyright 2001 Harcourt Publishers Ltd.

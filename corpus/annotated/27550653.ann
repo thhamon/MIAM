@@ -1,0 +1,80 @@
+T1004	pharmacokinetics 68 94	Pharmacokinetic Properties
+T1006	drug 209 219	sildenafil
+T1007	food 311 326	herbal remedies
+T1008	interaction 332 339	inhibit
+T1009	enzyme 340 365	cytochrome P450 (CYP) 3A4
+T10011	food 428 433	lemon
+T10012	food 438 452	Seville orange
+T10013	pharmacokinetics 461 477	pharmacokinetics
+T10029	drug 968 978	sildenafil
+T10031	food 1033 1053	Seville orange juice
+T10032	interaction 1068 1077	increased
+T10033	pharmacokinetics 1082 1128	area under the plasma concentration-time curve
+T10034	pharmacokinetics 1164 1189	peak plasma concentration
+T10040	food 1369 1389	Seville orange juice
+T10041	interaction 1390 1411	significantly reduced
+T10043	pharmacokinetics 1430 1439	clearance
+T10044	drug 1443 1453	sildenafil
+T10046	pharmacokinetics 1500 1521	elimination half-life
+T10047	food 1536 1547	lemon juice
+T10048	interaction 1548 1561	did not cause
+T10049	pharmacokinetics 1597 1613	pharmacokinetics
+T10050	drug 1617 1627	sildenafil
+T10051	enzyme 1755 1761	CYP3A4
+T10053	food 1773 1787	Seville orange
+T10054	interaction 1802 1815	mild increase
+T10055	drug 1831 1841	sildenafil
+T10057	frequency 1850 1856	single
+T10058	mode 1857 1861	oral
+T10059	interaction 1918 1926	enhanced
+T10060	pharmacokinetics 1927 1942	bioavailability
+T10061	drug 1946 1956	sildenafil
+T10062	food 1960 1974	Seville orange
+T10063	interaction 1996 2006	inhibition
+T10064	enzyme 2044 2050	CYP3A4
+T10065	food 2075 2086	Lemon juice
+T10066	pharmacokinetics 2123 2139	pharmacokinetics
+T10067	drug 2143 2153	sildenafil
+T10068	treatedDisease 256 276	erectile dysfunction
+T10027	duration 802 824	for 3 consecutive days
+T10036	pharmacokinetics 1322 1353	reach peak plasma concentration
+T10038	pharmacokinetics 979 992	concentration
+T10039	value 1457 1461	30 %
+T10042	interaction 1478 1495	without affecting
+T10045	enzyme 2058 2072	p-glycoprotein
+T10052	interaction 2105 2115	no effects
+T10071	food 407 426	citrus fruit juices
+T10072	interaction 1578 1589	alterations
+T10073	pharmacokinetics 1819 1827	exposure
+T10056	pharmacokinetics 2014 2042	intestinal first-pass effect
+T2001	food 29 34	Lemon
+T2003	food 39 60	Seville Orange Juices
+T2005	drug 98 108	Sildenafil
+T20014	drug 481 491	sildenafil
+T20015	population 495 516	male healthy subjects
+T20016	frequency 529 535	single
+T20017	mode 536 540	oral
+T20018	studyType 563 600	open-label, three-way crossover study
+T20019	population 604 632	nine healthy male volunteers
+T20020	frequency 658 664	single
+T20021	mode 665 669	oral
+T20022	drug 678 688	sildenafil
+T20023	dosage 690 695	50 mg
+T20024	dosage 721 727	250 mL
+T20025	food 738 743	water
+T20026	food 755 776	undiluted lemon juice
+T20028	food 781 801	Seville orange juice
+T20030	food 1026 1031	water
+T20035	drug 1193 1203	sildenafil
+T20037	value 1254 1258	18 %
+T20056	mealTime 1842 1847	after
+T2002	population 112 128	Healthy Subjects
+T20069	parameter 899 913	Plasma samples
+T20070	value 1207 1211	44 %
+T20075	interaction 1292 1309	without affecting
+T20080	interaction 172 184	interactions
+T20081	mealTime 697 702	after
+R1	increase_pharmacokinetic_parameter Arg1:T10031 Arg2:T20035	
+R2	elimination_decrease Arg1:T10040 Arg2:T10044	
+R3	increase_pharmacokinetic_parameter Arg1:T10053 Arg2:T10055	
+R4	increase_pharmacokinetic_parameter Arg1:T10062 Arg2:T10061	

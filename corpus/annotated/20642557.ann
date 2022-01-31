@@ -1,0 +1,52 @@
+T1001	food 38 53	cranberry juice
+T1002	drug 81 89	warfarin
+T1003	food 169 184	cranberry juice
+T1004	interaction 189 201	potentiation
+T1005	drug 205 213	warfarin
+T1006	dosage 229 235	240 ml
+T1007	food 239 254	cranberry juice
+T1008	frequency 255 260	daily
+T10010	food 325 340	cranberry juice
+T10011	drug 360 368	warfarin
+T10012	food 370 385	Cranberry juice
+T10014	frequency 396 407	twice daily
+T10015	interaction 408 422	does not alter
+T10016	drug 447 455	warfarin
+T10017	food 483 498	cranberry juice
+T10018	dosage 500 506	240 ml
+T10019	frequency 507 518	twice daily
+T10021	drug 557 565	warfarin
+T10022	population 567 584	Ten male patients
+T10023	drug 608 616	warfarin
+T10024	food 628 643	cranberry juice
+T10025	dosage 647 653	240 ml
+T10026	frequency 654 665	twice daily
+T10028	interaction 921 946	no statistical difference
+T10029	food 1015 1020	juice
+T10030	food 1037 1052	Cranberry juice
+T10031	dosage 1054 1060	240 ml
+T10032	frequency 1061 1072	twice daily
+T10033	interaction 1085 1098	did not alter
+T10034	drug 1123 1131	warfarin
+T10036	interaction 520 526	alters
+T10037	duration 666 676	for 7 days
+T10039	parameter 774 791	Prothrombin times
+T10040	duration 1073 1083	for 1 week
+T10042	population 1135 1143	patients
+T10043	population 93 101	patients
+T10044	dosage 28 37	high-dose
+T10045	dosage 307 321	higher amounts
+T10046	dosage 473 482	high-dose
+T10047	dosage 592 604	stable doses
+T10048	food 767 772	juice
+T10049	parameter 678 695	Prothrombin times
+T20013	dosage 389 395	240 ml
+T20050	interaction 274 288	no interaction
+T20051	interaction 346 354	interact
+T20027	parameter 960 976	prothrombin time
+T20052	studyType 125 137	Case reports
+#1	AnnotatorNotes T20050	absence 
+T1	other 61 77	pharmacodynamics
+T2	other 427 443	pharmacodynamics
+T3	other 531 546	pharmacodynamic
+T4	other 1103 1119	pharmacodynamics

@@ -1,0 +1,71 @@
+T1002	pharmacokinetics 54 64	absorption
+T1007	pharmacokinetics 160 176	pharmacokinetics
+T10010	dosage 327 339	single doses
+T10020	mealTime 640 651	food intake
+T10025	pharmacokinetics 729 732	AUC
+T10028	mealTime 799 804	after
+T10031	mealTime 943 954	food intake
+T10032	pharmacokinetics 962 978	pharmacokinetics
+T10036	pharmacokinetics 1184 1194	absorption
+T10041	pharmacokinetics 1371 1381	absorption
+T10043	food 1444 1457	milk products
+T10061	mealTime 68 85	concurrent intake
+T10062	mealTime 1254 1264	taken with
+T2003	food 89 93	milk
+T2004	food 98 102	food
+T2005	food 139 143	milk
+T2006	food 148 152	food
+T2008	drug 180 202	estramustine phosphate
+T2009	studyType 264 301	randomized three-way cross-over study
+T20013	food 406 410	milk
+T20014	pharmacokinetics 446 466	plasma concentration
+T20015	drug 487 499	estromustine
+T20016	pharmacokinetics 565 569	tmax
+T20017	drug 586 598	estromustine
+T20018	interaction 618 627	increased
+T20019	food 631 635	milk
+T20021	pharmacokinetics 656 660	Cmax
+T20022	pharmacokinetics 665 668	AUC
+T20023	interaction 688 697	decreased
+T20024	food 718 723	water
+T20026	drug 736 748	estromustine
+T20027	food 786 790	milk
+T20029	mode 818 824	intake
+T20030	food 934 938	milk
+T20033	drug 982 989	estrone
+T20034	drug 1057 1088	estramustine phosphate disodium
+T20037	drug 1198 1220	estramustine phosphate
+T20038	interaction 1226 1235	decreased
+T20039	food 1265 1269	milk
+T20040	food 1273 1277	food
+T20042	food 1438 1442	milk
+T2001	drug 31 53	estramustine phosphate
+T20046	treatedDisease 241 257	prostatic cancer
+T20047	drug 504 511	estrone
+T20048	pharmacokinetics 574 582	lag time
+T20049	value 753 756	41%
+T20050	value 795 798	67%
+T20053	drug 1385 1393	Estracyt
+T20055	interaction 17 27	Impairment
+T20058	pharmacokinetics 877 888	peak values
+T20059	value 894 905	32 and 57%,
+T20028	studyType 1003 1019	Studies in vitro
+T20052	component 1130 1137	calcium
+T20061	interaction 1289 1337	formation of a poorly absorbable calcium complex
+T20045	population 223 257	six patients with prostatic cancer
+T20012	meal 385 401	low calcium food
+T20011	meal 366 383	low calcium water
+T20056	mealTime 352 360	together
+T20051	meal 828 845	standardized food
+T20064	food 943 947	food
+T20035	interaction 1093 1110	markedly impaired
+T20044	meal 1467 1484	calcium-rich food
+T20060	pharmacokinetics 1042 1088	dissolution of estramustine phosphate disodium
+T20068	mealTime 775 790	taken with milk
+T1	mealTime 805 824	simultaneous intake
+T2	pertinence 1418 1431	taken togethe
+#1	AnnotatorNotes T2	avis : doit on inclure should not ou pas 
+R1	increase_pharmacokinetic_parameter Arg1:T20019 Arg2:T20017	
+R2	absorption_decrease Arg1:T20052 Arg2:T20034	
+R3	absorption_decrease Arg1:T20039 Arg2:T20037	
+#2	AnnotatorNotes R1	Relation à supprimer car dans une même phrase, "augmentation" et "diminution" de paramètres pharmacocinétiques

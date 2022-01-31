@@ -1,0 +1,53 @@
+T1003	food 192 198	coffee
+T1004	food 200 203	tea
+T1005	drug 468 479	haloperidol
+T1006	interaction 535 541	formed
+T1007	food 635 641	coffee
+T1008	drugClass 41 53	neuroleptics
+T1009	drugClass 58 82	tricylic antidepressants
+T10011	component 205 216	gallic acid
+T10012	component 222 238	gallotannic acid
+T10013	drug 437 451	phenothiazines
+T10017	component 566 573	tannins
+T10019	food 646 649	tea
+T10020	drugClass 700 712	neuroleptics
+T10024	studyType 17 25	In vitro
+T10023	studyType 148 156	in vitro
+T2001	food 88 94	coffee
+T2002	food 96 99	tea
+T20010	component 105 121	gallotannic acid
+T20014	drug 453 466	amitriptyline
+T20015	drug 481 491	imipramine
+T20016	drug 497 505	loxapine
+T20018	interaction 603 614	interaction
+T20021	drug 746 757	thiothixene
+T20022	drug 762 771	molindone
+T20026	interaction 26 37	interaction
+T20027	interaction 157 168	interaction
+T20028	interaction 361 386	significant precipitation
+T2006	interaction 511 525	strong complex
+T20029	interaction 774 791	ailed to interact
+T20030	interaction 660 672	precipitates
+R1	absorption_decrease Arg1:T1003 Arg2:T10013	
+R2	absorption_decrease Arg1:T1003 Arg2:T20014	
+R3	absorption_decrease Arg1:T1003 Arg2:T1005	
+R4	absorption_decrease Arg1:T1003 Arg2:T20015	
+R5	absorption_decrease Arg1:T1003 Arg2:T20016	
+R6	absorption_decrease Arg1:T1004 Arg2:T10013	
+R7	absorption_decrease Arg1:T1004 Arg2:T20014	
+R8	absorption_decrease Arg1:T1004 Arg2:T1005	
+R9	absorption_decrease Arg1:T1004 Arg2:T20015	
+R10	absorption_decrease Arg1:T1004 Arg2:T20016	
+R11	absorption_decrease Arg1:T10011 Arg2:T10013	
+R12	absorption_decrease Arg1:T10011 Arg2:T20014	
+R13	absorption_decrease Arg1:T10011 Arg2:T1005	
+R14	absorption_decrease Arg1:T10011 Arg2:T20015	
+R15	absorption_decrease Arg1:T10011 Arg2:T20015	
+R16	absorption_decrease Arg1:T10011 Arg2:T20015	
+R17	absorption_decrease Arg1:T10011 Arg2:T20016	
+R18	absorption_decrease Arg1:T10012 Arg2:T10013	
+R19	absorption_decrease Arg1:T10012 Arg2:T20014	
+R20	absorption_decrease Arg1:T10012 Arg2:T1005	
+R21	absorption_decrease Arg1:T10012 Arg2:T20015	
+R22	absorption_decrease Arg1:T10012 Arg2:T20016	
+#1	AnnotatorNotes R5	diminution de l'absorption extrapolée de la formation de précipités observés in vitro

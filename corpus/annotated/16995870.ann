@@ -1,0 +1,79 @@
+T1004	drug 242 253	ciclosporin
+T1005	food 271 287	grapefruit juice
+T1006	enzyme 334 353	cytochrome P450 3A4
+T1007	food 418 434	grapefruit juice
+T1008	food 439 460	citrus sodas Sun Drop
+T1009	food 465 471	Fresca
+T10011	enzyme 545 551	CYP3A4
+T10012	component 562 573	bergamottin
+T10013	food 601 606	water
+T10014	mode 610 614	oral
+T10015	drug 615 626	ciclosporin
+T10016	studyType 650 685	randomized four-way crossover study
+T10017	population 721 742	12 healthy volunteers
+T10018	frequency 754 760	single
+T10019	mode 761 765	oral
+T10020	drug 774 785	ciclosporin
+T10022	food 839 844	water
+T10023	dosage 868 874	591 ml
+T10024	pharmacokinetics 952 972	blood concentrations
+T10025	drug 976 987	ciclosporin
+T10026	food 1059 1075	Grapefruit juice
+T10027	interaction 1076 1085	increased
+T10028	pharmacokinetics 1086 1125	area under the concentration-time curve
+T10029	value 1190 1211	3302-6240 ng ml h(-1)
+T10030	pharmacokinetics 1217 1235	peak concentration
+T10031	drug 1260 1271	ciclosporin
+T10032	interaction 1279 1299	significant decrease
+T10034	pharmacokinetics 1303 1317	oral clearance
+T10035	food 1357 1362	water
+T10036	drug 1406 1417	ciclosporin
+T10038	value 1475 1492	from +/- 3 to 11%
+T10039	food 1514 1519	water
+T10040	food 1585 1601	grapefruit juice
+T10041	mode 1627 1631	oral
+T10042	drug 1632 1643	ciclosporin
+T10043	food 1696 1702	Fresca
+T10044	drug 1740 1751	ciclosporin
+T1003	food 163 180	citrus soft drink
+T10046	food 182 190	Sun Drop
+T10047	interaction 208 238	clinically relevant elevations
+T10048	interaction 307 319	inactivation
+T10049	enzyme 355 361	CYP3A4
+T10050	food 579 587	Sun Drop
+T10051	pharmacokinetics 627 643	pharmacokinetics
+T10052	drug 787 793	Neoral
+T10053	food 800 808	Sun Drop
+T10054	food 810 816	Fresca
+T10055	frequency 889 894	twice
+T10056	frequency 916 927	three times
+T10057	value 1129 1133	186%
+T10058	value 1239 1243	150%
+T10059	value 1321 1324	43%
+T10060	component 1648 1654	citrus
+T10061	food 1684 1692	Sun Drop
+T10062	frequency 1732 1739	chronic
+T10063	pharmacokinetics 254 260	levels
+T10010	pharmacokinetics 1418 1443	pharmacokinetic variables
+T2001	food 59 75	grapefruit juice
+T2002	drug 79 90	ciclosporin
+T20021	food 818 834	grapefruit juice
+T20045	food 28 46	citrus soft drinks
+T20033	food 1372 1383	citrus soda
+T20065	interaction 1585 1618	grapefruit juice-like interaction
+T20066	food 484 488	soda
+T20068	studyType 135 146	case report
+T20063	interaction 271 302	grapefruit juice-like mechanism
+T20024	interaction 1364 1371;1384 1391	Neither altered
+T1	pharmacokinetics 91 102	disposition
+#1	AnnotatorNotes T20024	absence 
+R1	metabolism_decrease Arg1:T1003 Arg2:T1004	
+R2	enzyme_inhibition Arg1:T1003 Arg2:T1004	
+R3	metabolism_decrease Arg1:T10046 Arg2:T1004	
+R4	enzyme_inhibition Arg1:T10046 Arg2:T1004	
+R5	metabolism_decrease Arg1:T10026 Arg2:T10031	
+R6	increase_pharmacokinetic_parameter Arg1:T10026 Arg2:T10031	
+R7	metabolism_decrease Arg1:T10040 Arg2:T10042	
+#2	AnnotatorNotes R7	citer l'interaction "pamplemousse like"?
+R8	metabolism_decrease Arg1:T1005 Arg2:T1004	
+R9	enzyme_inhibition Arg1:T1005 Arg2:T1004	

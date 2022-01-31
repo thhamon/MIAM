@@ -1,0 +1,51 @@
+T1001	drug 33 42	isoniazid
+T1003	mode 245 253	ingested
+T1004	drug 271 280	Isoniazid
+T1005	pharmacokinetics 361 371	metabolism
+T1006	food 413 417	fish
+T1007	pharmacokinetics 466 476	metabolism
+T1009	mealTime 544 549	after
+T10010	food 557 561	fish
+T10012	food 742 746	fish
+T10013	interaction 777 786	increased
+T10016	mode 834 843	ingestion
+T10017	interaction 872 881	increases
+T10019	food 48 53	foods
+T10021	drug 143 152	isoniazid
+T10022	population 221 233	two patients
+T10023	food 254 260	cheese
+T10024	food 265 269	wine
+T10025	component 375 384	histamine
+T10026	food 422 429	cheeses
+T10027	food 565 571	cheese
+T10028	food 827 833	cheese
+T10029	function 885 899	blood pressure
+T10030	drug 923 932	isoniazid
+T10031	pathology 655 663	headache
+T10032	pathology 665 677	palpitations
+T10033	pathology 679 692	skin flushing
+T10034	pathology 694 700	nausea
+T10035	pathology 702 710	vomiting
+T10036	pathology 716 724	pruritus
+T10037	mode 158 161	ate
+T10038	interaction 287 296	inhibitor
+T10039	food 506 513	cheeses
+T10040	food 518 523	wines
+T10041	drug 598 607	isoniazid
+T10042	enzyme 305 314	monoamine
+T10043	enzyme 319 335	diamine oxidases
+T10044	enzyme 431 448	Monoamine oxidase
+T10011	function 787 801	blood pressure
+T10014	food 996 1009	certain foods
+T10015	pathology 973 982	reactions
+T2002	food 170 174	fish
+T20011	mealTime 736 741	after
+T20018	mealTime 983 988	after
+T20020	food 179 186	cheeses
+T20046	interaction 17 29	Interactions
+T20048	population 576 584	patients
+T20047	population 121 187	patients treated with isoniazid, who ate certain fish and cheeses.
+T2008	component 480 488	tyramine
+T20052	mode 550 556	eating
+R1	physiological_effect_potentiation Arg1:T10028 Arg2:T10030	
+#1	AnnotatorNotes T10028	cf. autre article isoniazide

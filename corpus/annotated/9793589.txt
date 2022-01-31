@@ -1,0 +1,10 @@
+Relative bioavailability of atovaquone suspension when administered with an enteral nutrition supplement.
+OBJECTIVE:
+To compare the relative bioavailability of a single atovaquone 750 mg suspension oral dose when administered in the fasting state, after a normal breakfast, and after an enteral nutrition supplement.
+DESIGN:
+Ten healthy volunteers received a single dose of atovaquone suspension 750 mg/5 mL while fasting. At 2-week intervals, the subjects were then randomized in a crossover design to receive the atovaquone dose within 1 hour of consuming a normal breakfast (fat content 21 g) and 16 oz. of Sustacal Plus (fat content 28 g). Blood samples were collected at seven time points after each atovaquone dose. HPLC was used to determine the atovaquone concentrations in plasma.
+RESULTS:
+Administering atovaquone suspension with either a normal breakfast or an enteral nutrition supplement, such as Sustacal Plus, significantly increased the oral relative bioavailability. The mean AUC0-24 after the fasting dose was 43.4 micrograms.h/mL. The mean AUC0-24 values with breakfast (103.8 micrograms.h/mL) and Sustacal Plus (118.8 micrograms.h/mL) were significantly greater compared with fasting (p < 0.0001).
+CONCLUSIONS:
+This study has shown that the new atovaquone oral suspension also has significantly greater bioavailability when administered after food or a nutrition supplement that has a moderate fat content. Patients who require atovaquone therapy can use Sustacal Plus without risk of reduced absorption.
+

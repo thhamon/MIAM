@@ -1,0 +1,54 @@
+T1001	drug 28 37	buspirone
+T1002	drug 42 50	diazepam
+T1003	food 82 89	alcohol
+T1004	drug 169 178	buspirone
+T1005	dosage 187 192	20 mg
+T1006	drug 198 206	diazepam
+T1007	dosage 208 213	10 mg
+T1008	dosage 295 303	0.8 g/kg
+T1009	food 307 314	alcohol
+T10010	population 336 350	24 healthy men
+T10011	food 352 359	Alcohol
+T10012	dosage 361 369	0.8 g/kg
+T10013	drug 435 443	diazepam
+T10014	drug 459 468	buspirone
+T10015	drug 489 498	Buspirone
+T10016	drug 564 572	diazepam
+T10019	food 781 788	alcohol
+T10020	food 800 807	alcohol
+T10021	drug 859 867	Diazepam
+T10022	food 913 920	alcohol
+T10023	drug 930 939	buspirone
+T10024	drug 982 989	alcohol
+T10025	drug 1018 1027	buspirone
+T10026	drug 1032 1040	diazepam
+T10027	frequency 1156 1162	single
+T10028	drug 1182 1191	buspirone
+T10029	dosage 1218 1223	10-mg
+T10030	drug 1232 1240	diazepam
+T10032	drugEffect 513 529	sedative effects
+T10034	food 722 729	alcohol
+T10035	frequency 1211 1217	single
+T10036	drugClass 1163 1173	anxiolytic
+T10037	food 1106 1113	alcohol
+T10038	pharmacokinetics 998 1014	Pharmacokinetics
+T10039	drugClass 644 655	anxiolytics
+T10040	dosage 180 182	10
+T10041	exam 94 113	skilled performance
+T10042	exam 118 135	evoked potentials
+T10043	exam 218 237	skilled performance
+T10044	exam 242 258	evoked responses
+T10031	exam 840 857	evoked potentials
+T10045	exam 879 896	evoked potentials
+T10046	interaction 970 977	reverse
+T10047	drugEffect 1119 1142	psychomotor side effect
+T20017	drugEffect 573 637	impaired tracking and body balance in addition to being sedative
+T20018	interaction 668 696	slight additive interactions
+T20033	interaction 1046 1072	not significantly affected
+T20043	interaction 277 289	interactions
+T20031	pathology 382 413	greatest performance impairment
+T20044	interaction 809 819	nteraction
+T20045	drug 795 800	drug/
+T1	mealTime 1076 1102	concomitant administration
+R1	physiological_effect_potentiation Arg1:T10034 Arg2:T10039	
+#1	AnnotatorNotes R1	synergie d'effets sédatifs

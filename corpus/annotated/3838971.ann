@@ -1,0 +1,21 @@
+T1	drug 17 26	Augmentin
+T3	drug 65 83	aluminum hydroxide
+T5	pharmacokinetics 174 189	bioavailability
+T6	drug 193 202	Augmentin
+T8	food 280 284	milk
+T9	drug 289 299	cimetidine
+T10	pharmacokinetics 330 345	bioavailability
+T12	mode 366 370	oral
+T13	drug 371 380	Augmentin
+T14	drug 484 493	Augmentin
+T2	pharmacokinetics 27 42	bioavailability
+T15	drug 53 63	cimetidine
+T16	food 88 92	milk
+T4	drug 260 278	aluminum hydroxide
+T7	dosage 351 362	single dose
+T11	interaction 300 322	do have some influence
+T17	interaction 421 461	unlikely to be of therapeutic importance
+A1	valence T17 Négation
+T18	food 222 226	food
+R1	increase_pharmacokinetic_parameter Arg1:T18 Arg2:T5	
+#1	AnnotatorNotes R1	absence

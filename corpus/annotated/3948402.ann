@@ -1,0 +1,37 @@
+T1	meal 0 19	Dietary citric acid
+T2	mealTime 103 116	between meals
+T3	duration 137 167	seven-day experimental periods
+T4	component 173 184	citric acid
+T5	food 189 200	lemon juice
+T6	interaction 20 28	enhances
+T7	drug 207 214	Al(OH)3
+T8	drug 223 230	Al(OH)3
+T9	component 233 244	citric acid
+T10	mealTime 266 271	after
+T11	pharmacokinetics 29 39	absorption
+T12	mealTime 322 327	after
+T13	component 343 354	nitric acid
+T14	interaction 383 392	increases
+T15	pharmacokinetics 396 418	mean Al concentrations
+T16	drug 43 51	aluminum
+T17	mealTime 504 509	after
+T18	mode 510 519	ingestion
+T19	component 530 541	citric acid
+T20	drug 545 552	Al(OH)3
+T21	drugClass 55 63	antacids
+T22	mode 605 614	Ingestion
+T23	drug 623 630	Al(OH)3
+T24	component 635 646	citric acid
+T25	population 65 80	Ten healthy men
+T26	interaction 717 725	increase
+T27	parameter 729 746	Al concentrations
+T28	component 8 19	citric acid
+T29	pharmacokinetics 810 820	absorption
+T30	mode 81 89	ingested
+T31	drug 824 844	Al-citrate complexes
+T32	frequency 91 102	twice daily
+A1	valence T26 Augmentation
+A2	valence T14 Augmentation
+R1	absorption_increase Arg1:T28 Arg2:T16	
+R2	absorption_increase Arg1:T28 Arg2:T21	
+R3	absorption_increase Arg1:T24 Arg2:T23	

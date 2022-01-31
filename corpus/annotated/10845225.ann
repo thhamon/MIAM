@@ -1,0 +1,43 @@
+T1	function 1004 1028	diastolic blood pressure
+T2	function 1014 1028;991 999	blood pressure systolic
+T3	parameter 1051 1072	serum caffeine levels
+T4	value 1073 1090	> or = 2.9 mg.l-1
+T5	drug 109 118	adenosine
+T6	value 1106 1111	lower
+T7	parameter 1112 1133	serum caffeine levels
+T8	parameter 1158 1179	serum caffeine levels
+T9	value 1180 1197	> or = 2.9 mg.l-1
+T10	treatedDisease 119 152	myocardial perfusion scintigraphy
+T11	pathology 1207 1218	no symptoms
+T12	pathology 1273 1284	no symptoms
+T13	pathology 1288 1337	patients with symptoms (mild, moderate or severe)
+T14	parameter 1403 1424	serum caffeine levels
+T15	value 1425 1442	> or = 2.9 mg.l-1
+T16	parameter 1458 1471	lower levels.
+T17	mealTime 1486 1501	12 h abstention
+T18	component 1507 1515	caffeine
+T19	component 225 233	caffeine
+T20	mealTime 234 264	in the 12 h prior to the test.
+T21	component 25 33	caffeine
+T22	parameter 334 355	serum caffeine levels
+T23	drug 44 53	adenosine
+T24	food 459 465	coffee
+T25	food 470 473	tea
+T26	parameter 539 560	serum caffeine levels
+T27	exam 54 79	myocardial perfusion scan
+T28	function 631 649	maximum pulse rate
+T29	function 651 688	systolic and diastolic blood pressure
+T30	pathology 701 718	clinical symptoms
+T31	interaction 746 760	no correlation
+T32	food 769 775	coffee
+T33	food 779 782	tea
+T34	parameter 803 824	serum caffeine levels
+T35	population 81 152	Seventy patients undergoing adenosine myocardial perfusion scintigraphy
+T36	parameter 828 848	serum caffeine level
+T37	value 852 862	2.9 mg.l-1
+T38	other 880 893	cut-off point
+T39	value 961 968	maximum
+T40	function 979 989	pulse rate
+#326	AnnotatorNotes T38	Interprétation résultats
+#311	AnnotatorNotes T11	négation
+A1	valence T31 Négation

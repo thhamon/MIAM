@@ -1,0 +1,44 @@
+T1	studyType 86 126	A prospective randomized crossover trial
+T2	studyType 155 206	prospective, controlled, randomized crossover trial
+T4	drug 295 307	cyclosporine
+T5	population 332 340	10 adult
+T9	mode 721 725	oral
+T11	drug 871 874	CyA
+T12	pharmacokinetics 910 913	AUC
+T15	drug 1227 1230	CyA
+T16	pharmacokinetics 1339 1357	systemic clearance
+T17	drug 1361 1364	CyA
+T18	interaction 1511 1525	did not affect
+T19	drug 1526 1529	CyA
+T21	drug 43 55	cyclosporine
+T22	meal 60 66	lipids
+T23	mode 246 256	parenteral
+T3	meal 268 290	with or without lipids
+T24	mode 18 28	Parenteral
+T6	meal 430 440	isocaloric
+T20	meal 445 459	isonitrogenous
+T7	mode 460 470	parenteral
+T25	meal 492 538	without (regimen A) or with lipids (regimen B)
+T26	parameter 654 667	Blood samples
+T27	parameter 839 852	blood samples
+T13	pharmacokinetics 916 936	trough concentration
+T28	pharmacokinetics 941 959	systemic clearance
+T14	interaction 1162 1202	no statistically significant differences
+#1	AnnotatorNotes T14	pas d'interaction (no_effect_on_drug)
+T8	interaction 1270 1317	no significant differences from baseline values
+A1	valence T8 Négation
+#2	AnnotatorNotes T8	no_effect
+A2	valence T14 Négation
+T29	interaction 1332 1338	higher
+A3	valence T29 Augmentation
+T31	drug 309 312	CyA
+T32	pharmacokinetics 888 908	area under the curve
+T33	pharmacokinetics 314 330	pharmacokinetics
+T34	treatedDisease 391 418	bone marrow transplantation
+T10	pharmacokinetics 1231 1257	pharmacokinetic parameters
+T35	treatedDisease 698 713	transplantation
+T36	dosage 1442 1452	0.8 g/Kg/d
+T30	meal 1458 1510	50:50 mixture of medium and long chain triglycerides
+A4	valence T18 Négation
+R1	relation Arg1:T30 Arg2:T19	
+#3	AnnotatorNotes R1	no effect on drug

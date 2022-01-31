@@ -1,0 +1,44 @@
+T1	food 32 50	garlic supplements
+T2	pharmacokinetics 58 74	pharmacokinetics
+T3	food 257 275	garlic supplements
+T4	pharmacokinetics 283 299	pharmacokinetics
+T5	population 315 337	Ten healthy volunteers
+T6	dosage 347 355	10 doses
+T7	drug 359 369	saquinavir
+T9	duration 434 440	4 days
+T10	dosage 507 515	41 doses
+T11	food 519 533	garlic caplets
+T12	drug 651 661	saquinavir
+T13	drug 733 743	saquinavir
+T14	pharmacokinetics 766 769	AUC
+T15	interaction 802 811	decreased
+T16	value 815 818	51%
+T18	interaction 854 863	decreased
+T19	value 867 870	49%
+T20	pharmacokinetics 885 907	maximum concentrations
+T21	interaction 915 924	decreased
+T22	value 928 931	54%
+T23	pharmacokinetics 970 973	AUC
+T24	pharmacokinetics 987 998	Cmax values
+T25	value 1011 1018	60%-70%
+T26	food 1091 1097	garlic
+T27	drug 1115 1125	saquinavir
+T28	drug 78 88	saquinavir
+T29	drug 303 313	saquinavir
+T30	mealTime 424 429	meals
+T31	dosage 397 404	1200 mg
+T32	frequency 405 418	3 times daily
+T8	frequency 540 553	2 times daily
+T33	parameter 574 587	Blood samples
+T34	pharmacokinetics 662 695	plasma pharmacokinetic parameters
+T35	food 716 722	garlic
+T36	pharmacokinetics 820 833	trough levels
+T17	pharmacokinetics 975 981	trough
+T38	drugClass 1152 1170	protease inhibitor
+T39	pharmacokinetics 744 764	area under the curve
+#2	AnnotatorNotes T36	taux résiduel
+T40	pharmacokinetics 909 913	Cmax
+A1	valence T21 Diminution
+T37	drug 371 380	Fortovase
+R1	decrease_pharmacokinetic_parameter Arg1:T35 Arg2:T13	
+R2	decrease_pharmacokinetic_parameter Arg1:T26 Arg2:T27	

@@ -1,0 +1,72 @@
+T1001	drug 17 27	Nabumetone
+T1002	food 78 82	food
+T1003	food 84 88	milk
+T1004	pharmacokinetics 118 133	bioavailability
+T1005	frequency 137 143	single
+T1006	mode 144 148	oral
+T1009	drug 215 225	nabumetone
+T10010	frequency 305 311	single
+T10011	mode 312 316	oral
+T10012	food 339 343	food
+T10013	food 345 349	milk
+T10014	population 379 397	healthy volunteers
+T10015	drug 418 428	nabumetone
+T10017	pharmacokinetics 505 517	plasma level
+T10019	dosage 615 622	1000 mg
+T10020	drug 623 633	nabumetone
+T10021	pharmacokinetics 635 642	maximum
+T10022	pharmacokinetics 643 664	plasma concentrations
+T10024	value 728 764	9.76, 24.19, and 36.59 micrograms/ml
+T10027	drug 961 971	nabumetone
+T10028	mealTime 976 991	given with food
+T10030	pharmacokinetics 1062 1091	maximum plasma concentrations
+T10031	interaction 1123 1132	increased
+T10032	parameter 1172 1185	plasma levels
+T10033	drug 1201 1211	nabumetone
+T10034	pharmacokinetics 1255 1296	area under the plasma concentration curve
+T10035	pharmacokinetics 1301 1322	maximum plasma levels
+T10036	interaction 1342 1351	increased
+T10037	food 1381 1385	milk
+T10038	food 1415 1420	water
+T10040	drug 1513 1523	nabumetone
+T10041	drug 1529 1547	aluminum hydroxide
+T10042	food 1590 1595	water
+T10043	drug 1618 1628	nabumetone
+T10044	drug 1683 1694	paracetamol
+T10045	interaction 1696 1724	did not significantly affect
+T10046	pharmacokinetics 1729 1742	plasma levels
+T10047	pharmacokinetics 1750 1753	AUC
+T10048	drugEffect 1801 1810	tolerance
+T10049	drug 1814 1824	nabumetone
+T10050	drugClass 37 59	anti-inflammatory drug
+T10051	drugClass 90 98	antacids
+T10052	drugClass 104 114	analgesics
+T10053	drugClass 235 257	anti-inflammatory drug
+T10054	drugClass 351 359	antacids
+T10055	drugClass 365 375	analgesics
+T10016	drug 536 567	6-methoxy-2-naphthylacetic acid
+T10018	drug 690 721	6-methoxy-2-naphthylacetic acid
+T10057	drug 1764 1795	6-methoxy-2-naphthylacetic acid
+T10059	drugClass 1641 1651	analgesics
+T10060	drug 1659 1679	acetylsalicylic acid
+T10061	parameter 1928 1938	hematology
+T10062	parameter 1943 1961	clinical chemistry
+T10065	dosage 601 604	250
+T10066	dosage 606 609	500
+T10039	drug 1424 1442	aluminum hydroxide
+T10058	mealTime 1859 1866	fasting
+T10063	mealTime 1871 1881	nonfasting
+T2007	pharmacokinetics 181 191	absorption
+T2008	pharmacokinetics 196 211	bioavailability
+T20026	pharmacokinetics 870 898	maximum plasma concentration
+T20028	food 987 991	food
+T20029	pharmacokinetics 997 1031	areas under the plasma level curve
+T20023	population 769 788	nonfasting subjects
+T20025	pharmacokinetics 816 851	areas under the plasma level curves
+T20056	population 1225 1249	male and female subjects
+T20058	population 1859 1890	fasting and nonfasting subjects
+T20063	interaction 899 906	reached
+T20048	pathology 1895 1910	adverse effects
+T1	mealTime 769 779	nonfasting
+R1	absorption_increase Arg1:T20028 Arg2:T10027	
+R2	absorption_increase Arg1:T10037 Arg2:T10033	

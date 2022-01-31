@@ -1,0 +1,8 @@
+Title (22574741): Apple juice greatly reduces systemic exposure to atenolol.
+
+Abstract (22574741):
+Fruit juice reduces the plasma concentrations of several β-adrenoceptor blockers, likely by inhibiting OATP2B1-mediated intestinal absorption. The aim of this study was to investigate the effects of apple juice on the pharmacokinetics of atenolol.
+Twelve healthy Korean volunteers with genotypes of SLCO2B1 c.1457C> T (*1/*1 (n = 6) and *3/*3 (n = 6)) were enrolled in this study. In a three-phase, one-sequence crossover study, the pharmacokinetics (PK) of atenolol was evaluated after administration of 50 mg atenolol. Subjects received atenolol with either 300 ml water, 1200 ml apple juice or 600 ml apple juice.
+Apple juice markedly reduced the systemic exposure to atenolol. The geometric mean ratios (95% confidence intervals) of apple juice : water were 0.18 (0.13, 0.25, 1200 ml) and 0.42 (0.30, 0.59, 600 ml) for the AUC(0,t(last)). In this study, the PK parameters of atenolol responded in a dose-dependent manner to apple juice.
+Apple juice markedly reduced systemic exposure to atenolol. The genetic variation of SLCO2B1 c.1457C>T had a minimal effect on the pharmacokinetics of atenolol when the drug was administered with water or apple juice.
+© 2012 The Authors. British Journal of Clinical Pharmacology © 2012 The British Pharmacological Society.

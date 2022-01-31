@@ -1,0 +1,25 @@
+T1	pharmacokinetics 16 31	Bioavailability
+T3	food 152 156	food
+T4	population 205 230	healthy female volunteers
+T5	pharmacokinetics 382 404	Elimination half-lives
+T6	mealTime 417 422	after
+T7	pharmacokinetics 483 493	absorption
+T2	drug 65 75	oxprenolol
+T8	mealTime 79 111	fasted and nonfasted individuals
+T9	pharmacokinetics 161 174	plasma levels
+T10	drug 566 576	oxprenolol
+T11	drug 178 188	oxprenolol
+T12	food 423 427	food
+T13	food 352 356	food
+T14	mode 446 453	tablets
+T15	mode 542 549	tablets
+T16	interaction 299 320	no significant trends
+T17	pharmacokinetics 324 344	plasma drug profiles
+T18	pharmacokinetics 529 541	slow-release
+T19	pharmacokinetics 242 254;272 284	conventional formulations
+T20	mealTime 698 730	fasted and nonfasted individuals
+T21	pharmacokinetics 674 694	plasma-drug profiles
+T22	pharmacokinetics 433 445	conventional
+T23	pharmacokinetics 259 284	slow-release formulations
+T24	pharmacokinetics 35 47	conventional
+T25	pharmacokinetics 52 64	slow-release

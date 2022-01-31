@@ -1,0 +1,41 @@
+T1	drug 1002 1014	tetracycline
+T2	drug 113 116	Tcy
+T3	interaction 121 138	severely impaired
+T4	meal 13 21	the diet
+T5	food 162 166	milk
+T6	food 171 186	dairy  products
+T7	drugClass 193 201	antacids
+T8	drug 213 237	aluminium hydroxide gels
+T9	drug 242 249	calcium
+T10	pharmacokinetics 25 40	bioavailability
+T11	drug 253 268	magnesium salts
+T12	drug 278 282	iron
+T13	drug 286 298	copper salts
+T14	drug 300 312	Tetracycline
+T15	interaction 363 391	chelation with metallic ions
+T16	pharmacokinetics 363 372	chelation
+T17	drug 44 56	tetracycline
+T18	pharmacokinetics 450 459	chelation
+T19	interaction 493 501	impaired
+T20	pharmacokinetics 502 512	absorption
+T21	food 625 630	foods
+T22	interaction 631 637	reduce
+T23	pharmacokinetics 642 652	absorption
+T24	drug 656 668	tetracycline
+T25	interaction 680 689	reduction
+T26	pharmacokinetics 697 715	drug plasma levels
+T27	component 751 761	Ca content
+T28	food 776 789	complete food
+T29	pharmacokinetics 80 95	bioavailability
+T30	meal 889 901	Mexican diet
+T31	meal 961 965	diet
+T32	interaction 972 978	affect
+T33	pharmacokinetics 983 998	bioavailability
+T34	drug 99 111	tetracycline
+A1	valence T22 Diminution
+A2	valence T25 Diminution
+R1	absorption_decrease Arg1:T5 Arg2:T34	
+R2	absorption_decrease Arg1:T6 Arg2:T34	
+R3	absorption_decrease Arg1:T5 Arg2:T2	
+R4	absorption_decrease Arg1:T6 Arg2:T2	
+R5	absorption_decrease Arg1:T21 Arg2:T24	

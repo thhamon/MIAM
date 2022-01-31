@@ -1,0 +1,49 @@
+T1	pharmacokinetics 104 119	bioavailability
+T2	drug 123 154	17 alpha-ethinylestradiol (EE2)
+T3	mealTime 155 160	after
+T4	frequency 163 169	single
+T5	mode 170 174	oral
+T6	dosage 193 206	50 micrograms
+T7	drug 207 210	EE2
+T8	pharmacokinetics 239 255	pharmacokinetics
+T9	drug 259 262	EE2
+T10	studyType 282 316	open, randomized, cross-over study
+T11	drug 31 47	ethinylestradiol
+T12	population 326 347	13 healthy volunteers
+T13	food 380 390	herbal tea
+T14	food 394 410	grapefruit juice
+T15	food 4 20	grapefruit juice
+T16	component 412 420	naringin
+T17	dosage 422 431	887 mg/ml
+T18	food 449 459	herbal tea
+T19	food 461 477	grapefruit juice
+T20	interaction 478 487	increased
+T21	pharmacokinetics 48 63	bioavailability
+T22	pharmacokinetics 519 523	Cmax
+T23	value 539 546	to 137%
+T24	value 554 571	range 64% to 214%
+T25	interaction 589 598	increased
+T26	pharmacokinetics 603 613;640 645	area under curve
+T27	pharmacokinetics 665 668	AUC
+T28	value 673 680	to 128%
+T29	value 688 705	range 81% to 180%
+T30	food 742 758	grapefruit juice
+T31	interaction 759 768	increases
+T32	pharmacokinetics 773 792	bioavailable amount
+T33	drug 796 799	EE2
+T34	food 80 96	grapefruit juice
+T35	food 836 852	grapefruit juice
+T36	interaction 853 861	inhibits
+T37	pharmacokinetics 866 887	metabolic degradation
+T38	drug 891 894	EE2
+T39	interaction 908 917	increased
+T40	pharmacokinetics 918 933	bioavailability
+T41	drug 937 940	EE2
+T42	food 951 967	grapefruit juice
+A1	valence T31 Augmentation
+A2	valence T25 Augmentation
+A3	valence T20 Augmentation
+A4	valence T39 Augmentation
+R1	metabolism_decrease Arg1:T30 Arg2:T33	
+R2	metabolism_decrease Arg1:T35 Arg2:T38	
+R3	metabolism_decrease Arg1:T42 Arg2:T41	

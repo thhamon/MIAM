@@ -1,0 +1,88 @@
+T1	component 17 25	Caffeine
+T3	drug 54 62	diazepam
+T4	population 111 131	237 healthy subjects
+T6	drug 257 265	diazepam
+T7	food 282 302	decaffeinated coffee
+T8	component 325 333	caffeine
+T9	drug 351 359	Diazepam
+T10	dosage 368 373	20 mg
+T11	interaction 375 383	impaired
+T12	drug 560 568	diazepam
+T13	dosage 569 574	10 mg
+T14	component 656 668	Theophylline
+T15	dosage 670 678	10 mg/kg
+T16	interaction 680 689	increased
+T17	component 790 802	theophylline
+T18	component 806 814	caffeine
+T19	dosage 824 830	500 mg
+T20	interaction 857 864	reduced
+T21	component 879 887	caffeine
+T22	interaction 893 902	increased
+T23	component 914 922	Caffeine
+T24	dosage 923 929	250 mg
+T25	drug 943 951	diazepam
+T26	interaction 952 959	induced
+T27	dosage 961 966	10 mg
+T29	component 1045 1053	caffeine
+T30	dosage 1054 1060	500 mg
+T31	drug 1094 1102	diazepam
+T32	dosage 1103 1108	20 mg
+T33	component 1124 1136	Theophylline
+T34	interaction 1137 1148	antagonized
+T35	interaction 1158 1176	induced impairment
+T36	component 1245 1253	caffeine
+T37	component 1258 1270	theophylline
+T38	drug 1284 1292	diazepam
+T2	component 30 42	theophylline
+T41	studyType 153 191	placebo-controlled double-blind trials
+T5	mode 248 255	capsule
+T42	component 337 349	theophylline
+T43	dosage 361 363	10
+T44	parameter 433 458	digit symbol substitution
+#1	AnnotatorNotes T44	examen clinique/test cognitif
+T45	parameter 463 482	letter cancellation
+#2	AnnotatorNotes T45	examen clinique/test cognitif
+T46	parameter 488 518	balance of extraocular muscles
+#3	AnnotatorNotes T46	examen clinique/test cognitif
+T47	parameter 520 534	flicker fusion
+#4	AnnotatorNotes T47	examen clinique/test cognitif
+T48	parameter 540 553	tapping speed
+#5	AnnotatorNotes T48	examen clinique/test cognitif
+T49	parameter 708 718	heart rate
+T50	dosage 816 819	250
+T51	interaction 930 942	counteracted
+A1	valence T51 Diminution
+T28	interaction 1061 1073	counteracted
+A2	valence T28 Diminution
+T52	parameter 982 998	cognitive skills
+T53	parameter 1003 1036	relaxation of extraocular muscles
+T54	drug 1149 1157	diazepam
+T55	parameter 1180 1205	digit symbol substitution
+#6	AnnotatorNotes T55	examen clinique/test cognitif
+T56	parameter 1210 1229	tapping speed tests
+#7	AnnotatorNotes T56	examen clinique/test cognitif
+T57	interaction 1271 1283	counteracted
+A3	valence T57 Diminution
+R1	relation Arg1:T33 Arg2:T38	
+#8	AnnotatorNotes R1	réduit les effets indésirables mais peut pousser à une surconsommation de benzo
+R2	relation Arg1:T36 Arg2:T38	
+#9	AnnotatorNotes R2	idem
+T39	parameter 401 417	cognitive skills
+T40	drugClass 1439 1454	benzodiazepines
+T58	drugClass 1533 1548	benzodiazepines
+T59	interaction 43 53	counteract
+T60	parameter 690 703	tapping speed
+T61	drugEffect 640 649	exophoria
+T62	parameter 622 635	digit symbols
+T63	drugEffect 865 873	calmness
+T64	drugEffect 903 912	alertness
+T65	drugEffect 1301 1331	drowsiness and mental slowness
+T66	component 1387 1402	methylxanthines
+T67	interaction 1475 1483	increase
+T68	population 74 77	man
+R3	physiological_effect_antagonism Arg1:T23 Arg2:T25	
+R4	physiological_effect_antagonism Arg1:T29 Arg2:T31	
+R5	physiological_effect_antagonism Arg1:T33 Arg2:T54	
+R6	physiological_effect_antagonism Arg1:T36 Arg2:T38	
+R7	physiological_effect_antagonism Arg1:T37 Arg2:T38	
+R8	physiological_effect_antagonism Arg1:T14 Arg2:T12	

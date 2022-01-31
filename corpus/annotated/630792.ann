@@ -1,0 +1,40 @@
+T1	food 10 31	charcoal-broiled beef
+T2	mode 118 121	fed
+T3	meal 124 136	control diet
+T4	food 140 161	charcoal-broiled beef
+T5	meal 140 178	charcoal-broiled beef--containing diet
+T6	meal 188 200	control diet
+T7	pharmacokinetics 232 242	half-lives
+T8	pharmacokinetics 244 248	t1/2
+T9	drug 253 263	antipyrine
+T10	drug 268 280	theophylline
+T11	interaction 291 300	decreased
+T12	value 301 307	by 22%
+T13	mealTime 308 313	after
+T14	mode 332 335	fed
+T15	food 340 361	charcoal-broiled beed
+T16	meal 340 378	charcoal-broiled beed--containing diet
+T17	drug 35 45	antipyrine
+T18	pharmacokinetics 396 400	t1/2
+T19	interaction 418 437	returned to control
+T20	mode 468 471	fed
+T21	meal 476 488	control diet
+T22	drug 50 62	theophylline
+T23	food 589 610	charcoal-broiled beef
+T24	meal 589 627	charcoal-broiled beef--containing diet
+T25	pharmacokinetics 63 73	metabolism
+T26	interaction 633 642	decreases
+T27	drug 646 656	antipyrine
+T28	pharmacokinetics 664 668	t1/2
+T29	value 698 712	from 5% to 39%
+T30	interaction 722 731	decreases
+T31	drug 735 747	theophylling
+T32	pharmacokinetics 748 752	t1/2
+T33	population 75 99	Eight healthy volunteers
+T34	value 761 775	from 0% to 42%
+A1	valence T30 Diminution
+A2	valence T11 Diminution
+A3	valence T26 Diminution
+R3	metabolism_increase Arg1:T16 Arg2:T9	
+R4	metabolism_increase Arg1:T16 Arg2:T10	
+#1	AnnotatorNotes T16	beed : faute  : surement beef

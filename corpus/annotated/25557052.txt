@@ -1,0 +1,8 @@
+Title (25557052): Effect of grapefruit juice on the bioactivation of prasugrel.
+
+Abstract (25557052):
+The P2Y12 inhibitor prasugrel is a prodrug, which is activated after its initial hydrolysis partly by cytochrome P450 (CYP) 3A4. Grapefruit juice, a strong inactivator of intestinal CYP3A4, greatly reduces the activation and antiplatelet effects of clopidogrel. The aim of this study was to investigate the effects of grapefruit juice on prasugrel.
+In a randomized crossover study, seven healthy volunteers ingested 200 ml of grapefruit juice or water three times daily for 4 days. On day 3, they ingested a single 10 mg dose of prasugrel with an additional 200 ml of grapefruit juice or water. Plasma concentrations of prasugrel metabolites and the antiplatelet effect were measured.
+Grapefruit juice increased the geometric mean area under the plasma concentration-time curve (AUC(0-∞)) of the primary, inactive metabolite of prasugrel to 164% of the control value (95% confidence interval 122-220%, P = 0.008), without a significant effect on its peak plasma concentration (C(max)). The C(max) and AUC(0-∞) of the secondary, active metabolite were decreased to 51% (95% confidence interval 32-84%, P = 0.017) and 74% of the control value (95% confidence interval 60-91%, P = 0.014) by grapefruit juice (P < 0.05). The average platelet inhibition, assessed with the VerifyNow® method at 0-24 h after prasugrel intake, was 5 percentage points (95% confidence interval 1-10 percentage points) lower in the grapefruit juice phase than in the water phase (P = 0.034).
+Grapefruit juice reduces the bioactivation of prasugrel, but this has only a limited effect on the antiplatelet effect of prasugrel.
+© 2014 The British Pharmacological Society.

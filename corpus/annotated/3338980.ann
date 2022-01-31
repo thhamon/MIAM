@@ -1,0 +1,19 @@
+T1001	drug 17 24	Lithium
+T1002	component 36 44	caffeine
+T1004	component 164 172	caffeine
+T1005	interaction 229 238	reduction
+T1006	drug 248 255	lithium
+T1007	pharmacokinetics 256 265	clearance
+T1008	interaction 279 288	increased
+T1003	drug 119 126	Lithium
+T10012	interaction 134 142	worsened
+T10014	food 174 180	coffee
+T10015	meal 208 213	diets
+T20013	population 146 158	two patients
+T20010	pathology 25 31	tremor
+T20011	pathology 127 133	tremor
+T20018	mode 45 52	intake:
+T2009	pharmacokinetics 289 308	serum lithium level
+T20012	drug 295 302	lithium
+R1	elimination_increase Arg1:T10014 Arg2:T1006	
+R2	elimination_increase Arg1:T1004 Arg2:T1006	

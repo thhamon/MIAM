@@ -1,0 +1,47 @@
+T1	drug 0 8	Warfarin
+T2	food 1004 1008	food
+T3	parameter 104 123	Thrombo-test values
+T4	mealTime 124 129	after
+T5	food 130 135	natto
+T6	mode 136 142	intake
+T7	population 160 168	patients
+T8	drugClass 180 201	anticoagulant therapy
+T9	mealTime 202 207	after
+T10	treatedDisease 208 236	valve replacement operations
+T11	food 23 28	natto
+T12	population 263 269	humans
+T13	population 274 281	rabbits
+T14	food 315 320	natto
+T15	interaction 327 348	strongly antagonistic
+T16	interaction 33 41	increase
+T17	drug 352 360	warfarin
+T18	component 388 402	Bacillus natto
+T19	food 416 421	natto
+T20	parameter 45 60	serum vitamin K
+T21	parameter 454 488	vitamin K in the intestinal tracts
+T22	mealTime 489 494	after
+T23	interaction 526 536	antagonism
+T24	food 540 545	natto
+T25	drug 549 557	Warfarin
+T26	parameter 593 602;620 632	vitamin K in the organ
+T27	mode 64 70	intake
+T28	parameter 661 680	vitamin K in plasma
+T29	population 684 699	healthy persons
+T30	mealTime 700 705	after
+T31	mode 706 712	intake
+T32	food 716 721	natto
+T33	interaction 734 743	increases
+T34	food 74 79	natto
+T35	parameter 747 762	serum vitamin K
+T36	drugClass 767 788	anticoagulant therapy
+T37	parameter 821 829	TT value
+T38	interaction 9 19	antagonism
+T39	interaction 95 103	elevated
+T40	drug 955 963	Warfarin
+A1	valence T16 Augmentation
+A2	valence T39 Augmentation
+A3	valence T33 Augmentation
+R1	physiological_effect_antagonism Arg1:T14 Arg2:T17	
+R2	physiological_effect_antagonism Arg1:T24 Arg2:T25	
+R3	physiological_effect_antagonism Arg1:T5 Arg2:T8	
+R4	physiological_effect_antagonism Arg1:T11 Arg2:T1	

@@ -1,0 +1,61 @@
+T1	pharmacokinetics 62 72	absorption
+T2	drug 125 137	ketoconazole
+T6	pharmacokinetics 318 328	absorption
+T7	drug 332 344	ketoconazole
+T9	studyType 393 444	prospective, randomized, three-way crossover design
+T10	population 512 584	Nine healthy nonsmoking, nonobese volunteers between 22 and 41 years old
+T11	drug 660 672	ketoconazole
+T12	dosage 673 679	200-mg
+T13	food 692 697	water
+T14	drug 713 723	omeprazole
+T15	dosage 725 730	60 mg
+T17	drug 744 756	ketoconazole
+T18	dosage 758 764	200 mg
+T19	food 777 782	water
+T21	drug 792 802	omeprazole
+T22	dosage 804 809	60 mg
+T24	drug 823 835	ketoconazole
+T25	dosage 837 843	200 mg
+T26	dosage 856 862	240 ml
+T27	food 866 875	Coca-Cola
+T29	drug 939 949	omeprazole
+T30	drug 1062 1074	ketoconazole
+T31	value 1344 1359	16.6% +/- 15.0%
+T32	interaction 1527 1535	increase
+T33	pharmacokinetics 1567 1577	absorption
+T34	drug 1581 1593	ketoconazole
+T35	interaction 1598 1605	reduced
+T36	drug 1625 1635	omeprazole
+T38	pharmacokinetics 1672 1682	absorption
+T39	interaction 1701 1710	increased
+T40	food 31 46	acidic beverage
+T41	food 48 57	Coca-Cola
+T42	drug 76 88	ketoconazole
+T43	pharmacokinetics 111 121	Absorption
+T44	food 257 272	acidic beverage
+T3	food 274 283	Coca-Cola
+T5	parameter 889 919	pH values of gastric aspirates
+T8	parameter 1014 1027	serum samples
+T16	pharmacokinetics 1377 1400	mean peak concentration
+T20	pharmacokinetics 1134 1191	mean area under the ketoconazole concentration-time curve
+T23	value 1241 1265	17.9 +/- 13.1 mg.h/liter
+T28	value 1320 1342	3.5 +/- 5.1 mg.h/liter
+T45	value 1440 1465	4.1 +/- 1.9 micrograms/ml
+T46	pharmacokinetics 1482 1505	mean peak concentration
+T37	food 1804 1819	acidic beverage
+T47	food 1829 1838	Coca-Cola
+T48	mode 680 686	tablet
+T49	interaction 141 149	impaired
+T4	studyType 616 626	randomized
+T50	parameter 994 996	pH
+T51	value 1000 1003	> 6
+T52	pharmacokinetics 1075 1089	concentrations
+T53	drug 1154 1166	ketoconazole
+T54	interaction 1285 1292	greater
+T55	interaction 1405 1412	highest
+T56	drugEffect 1644 1656	achlorhydria
+T57	value 1729 1744	65% of the mean
+R1	absorption_increase Arg1:T44 Arg2:T7	
+R2	absorption_increase Arg1:T3 Arg2:T7	
+R3	absorption_increase Arg1:T37 Arg2:T34	
+R4	absorption_increase Arg1:T47 Arg2:T34	

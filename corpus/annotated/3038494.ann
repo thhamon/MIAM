@@ -1,0 +1,40 @@
+T1001	food 30 40	wheat bran
+T1003	drug 109 116	digoxin
+T1005	drug 359 366	digoxin
+T1007	food 446 456	wheat bran
+T1008	drug 459 466	digoxin
+T1009	drug 488 495	digoxin
+T10012	interaction 552 559	reduced
+T10013	drug 564 571	digoxin
+T10015	drug 804 811	digoxin
+T10018	studyType 176 192	randomized study
+T10019	food 221 243	gel-forming wheat bran
+T10020	food 285 306	ispaghula formulation
+T10021	food 50 82	bulk-forming ispaghula cathartic
+T10022	food 251 280	nongel-forming bulk cathartic
+T10023	parameter 370 376	plasma
+T10024	food 476 485	ispaghula
+T10025	duration 497 508	for 4 weeks
+T10026	food 641 650	Ispaghula
+T10027	interaction 655 667	no influence
+T10028	food 729 750	ispaghula formulation
+T10029	population 822 840	geriatric patients
+T10030	pharmacokinetics 328 355	steady state concentrations
+T2006	population 380 404	30 geriatric in-patients
+T20011	food 541 551	wheat bran
+T20014	food 710 720	wheat bran
+T20017	population 120 141	geriatric in-patients
+T20010	drug 50 82	bulk-forming ispaghula cathartic
+T20020	drug 266 280	bulk cathartic
+T20021	drug 308 319	Vi-Siblin S
+T20023	drug 476 485	ispaghula
+T20024	value 605 639	still within the therapeutic range
+T20026	drug 641 650	Ispaghula
+T20022	drug 285 306	ispaghula formulation
+T20028	drug 729 750	ispaghula formulation
+T20030	duration 510 539	After 2 but not after 4 weeks
+T2002	pharmacokinetics 90 105	bioavailability
+T20016	pharmacokinetics 812 818	levels
+T1	pertinence 0 16	Title (3038494):
+#1	AnnotatorNotes T1	On se pose la question de la pertinence de cet article 
+R1	decrease_pharmacokinetic_parameter Arg1:T20011 Arg2:T10013	

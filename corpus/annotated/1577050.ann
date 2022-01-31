@@ -1,0 +1,57 @@
+T1	interaction 1015 1021	higher
+T2	pharmacokinetics 1022 1043	plasma concentrations
+T3	drug 1047 1057	felodipine
+T4	food 1069 1085	grapefruit juice
+T5	interaction 1100 1114	greater change
+T6	function 1118 1132	blood pressure
+T7	food 1189 1194	water
+T8	mode 148 156	drinking
+T9	food 157 173	grapefruit juice
+T10	mode 17 25	drinking
+T11	pharmacokinetics 181 202	acute pharmacokinetic
+T12	drugEffect 207 227	haemodynamic actions
+T13	drugClass 235 250	dihydropyridine
+T14	drugClass 251 269	calcium antagonist
+T15	food 26 42	grapefruit juice
+T16	drug 270 280	felodipine
+T17	dosage 292 296	5 mg
+T18	mode 303 309	tablet
+T19	population 330 362	nine, healthy, middle-aged males
+T20	food 376 381	water
+T21	food 383 399	grapefruit juice
+T22	interaction 410 418	increase
+T23	pharmacokinetics 422 426	Cmax
+T24	value 427 453	from mean 6 to 16 nmol.l-1
+T25	pharmacokinetics 466 469	AUC
+T26	value 470 494	from 23 to 65 nmol.h.l-1
+T27	pharmacokinetics 50 66	pharmacokinetics
+T28	pharmacokinetics 510 513	AUC
+T29	interaction 533 541	increase
+T30	pharmacokinetics 549 570	systemic availability
+T31	drug 574 584	felodipine
+T32	value 585 599	from 15 to 45%
+T33	interaction 610 619	no change
+T34	pharmacokinetics 627 636	clearance
+T35	interaction 673 683	inhibition
+T36	pharmacokinetics 691 700	oxidation
+T37	drug 704 714	felodipine
+T38	drug 731 748	dehydrofelodipine
+T39	component 752 762	flavonoids
+T40	food 766 782	grapefruit juice
+T41	food 805 821	grapefruit juice
+T42	drug 83 93	felodipine
+T43	drugClass 863 879	dihydropyridines
+T44	pharmacokinetics 884 893	oxidation
+T45	drugClass 901 916	dihydropyridine
+T46	drug 943 962	pyridine derivative
+A1	valence T29 Augmentation
+A2	valence T22 Augmentation
+R3	enzyme_inhibition Arg1:T40 Arg2:T37	
+R2	enzyme_inhibition Arg1:T39 Arg2:T37	
+R4	enzyme_inhibition Arg1:T41 Arg2:T43	
+R5	metabolism_decrease Arg1:T41 Arg2:T43	
+R6	physiological_effect_antagonism Arg1:T4 Arg2:T3	
+#1	AnnotatorNotes R3	présence de "oxydation" juste avant permet cette relation ; sinon, metabolism_decrease
+R1	metabolism_decrease Arg1:T39 Arg2:T37	
+R7	metabolism_decrease Arg1:T40 Arg2:T37	
+#2	AnnotatorNotes R6	blood pressure. Effet/impact clinique démontré, impact significatif pour patient ; Traduction clinique de l'intéraction cinétique. Ne correspond pas à un mécanisme d'interaction

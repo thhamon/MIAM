@@ -1,0 +1,24 @@
+T1	pathology 18 27	Hypomania
+T2	drugClass 65 87	psychotropic medicines
+T3	treatedDisease 480 490	depression
+T4	pathology 521 530	hypomania
+T7	drug 595 605	fluoxetine
+T11	treatedDisease 98 125	mild traumatic brain injury
+#1	AnnotatorNotes T1	"side effect" serait plus pertinent
+T12	population 405 419	female patient
+T13	treatedDisease 438 465	mild traumatic brain injury
+#2	AnnotatorNotes T13	antécédent
+#3	AnnotatorNotes T4	side effect?
+T5	food 544 558	St John's wort
+T15	drug 610 619	buspirone
+T6	food 563 576	Ginkgo biloba
+T8	drugClass 788 827	selective serotonin reuptake inhibitors
+T9	food 665 681	herbal medicines
+R1	relation Arg1:T9 Arg2:T8	
+T10	drugClass 829 834	SSRIs
+T14	food 160 176	herbal medicines
+T16	food 39 45;78 87	herbal medicines
+T17	food 767 783	herbal medicines
+T18	interaction 700 712	interactions
+T19	interaction 627 635	remitted
+T20	drugClass 729 755	psychopharmacologic agents

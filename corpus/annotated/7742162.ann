@@ -1,0 +1,29 @@
+T1001	food 28 32	milk
+T1002	food 37 41	food
+T1003	pharmacokinetics 49 59	absorption
+T1004	drug 63 71	enoxacin
+T1005	food 109 113	milk
+T10011	studyType 222 268	randomized, balanced, four-way crossover study
+T10018	meal 361 370	breakfast
+T10019	food 375 379	milk
+T10020	drug 395 403	enoxacin
+T10021	pharmacokinetics 404 414	absorption
+T10023	interaction 468 504	no statistically significant changes
+T10025	drug 544 552	enoxacin
+T10026	drug 601 609	enoxacin
+T10027	food 637 641	food
+T10028	food 646 660	dairy products
+T10029	pharmacokinetics 570 582	time to peak
+T2006	meal 120 138	standard breakfast
+T2007	mode 146 150	oral
+T2008	pharmacokinetics 151 161	absorption
+T2009	drug 165 173	enoxacin
+T20010	population 192 216	eight healthy volunteers
+T20012	mealTime 279 293	overnight fast
+T20013	dosage 295 301	400 mg
+T20014	drug 302 310	enoxacin
+T20015	food 326 331	water
+T20016	food 333 337	milk
+T20017	meal 341 350	breakfast
+T20022	interaction 419 431	not affected
+T20024	pharmacokinetics 532 566	peak plasma enoxacin concentration

@@ -1,0 +1,82 @@
+T1	food 37 53	grapefruit juice
+T2	drug 58 66	diazepam
+T3	population 70 76	humans
+T4	food 99 115	Grapefruit juice
+T5	pharmacokinetics 158 173	bioavailability
+T6	drug 177 186	triazolam
+T7	drug 212 224	cyclosporine
+T9	drug 288 298	felodipine
+T10	drug 312 324	nitrendipine
+T11	food 453 469	grapefruit juice
+T12	food 576 592	grapefruit juice
+T13	pharmacokinetics 596 617	plasma concentrations
+T14	population 631 669	Eight healthy male and female subjects
+T15	mode 698 702	Oral
+T16	drug 710 718	diazepam
+T17	dosage 748 754	250 ml
+T18	food 755 760	water
+T19	food 765 781	grapefruit juice
+T20	pharmacokinetics 835 861	whole blood concentrations
+T21	drug 865 873	diazepam
+T22	pharmacokinetics 917 920	AUC
+T23	drug 930 938	diazepam
+T24	interaction 943 952	increased
+T25	value 953 961	3.2-fold
+T26	pharmacokinetics 978 982	Cmax
+T27	interaction 987 996	increased
+T28	value 997 1005	1.5-fold
+T29	food 1024 1040	grapefruit juice
+T30	food 1042 1058	Grapefruit juice
+T31	interaction 1059 1068	postponed
+T32	drug 1081 1089	diazepam
+T33	value 1090 1111	from 1.50 h to 2.06 h
+T34	drug 188 196	midazola
+T35	drug 199 210	terfenadine
+T36	drugClass 237 277	dihydropyridine calcium channel blockers
+T8	drug 300 310	nifedipine
+T37	drug 329 340	nisoldipine
+T38	enzyme 393 426	cytochrome P450 isozyme (CYP) 3A4
+T39	enzyme 511 517	CYP3A4
+T40	interaction 432 449	inhibitory effect
+A1	valence T40 Diminution
+T41	drug 621 629	diazepam
+T43	dosage 704 708	5 mg
+T44	parameter 783 796	Blood samples
+A2	valence T24 Augmentation
+A3	valence T27 Augmentation
+T45	pharmacokinetics 1073 1077	tmax
+T42	interaction 17 28	Interaction
+T46	interaction 146 153	improve
+T47	interaction 497 507	inhibition
+T48	pharmacokinetics 366 377	metabolized
+R1	metabolism_decrease Arg1:T4 Arg2:T6	
+R2	metabolism_decrease Arg1:T4 Arg2:T34	
+R3	metabolism_decrease Arg1:T4 Arg2:T35	
+R4	metabolism_decrease Arg1:T4 Arg2:T7	
+R5	metabolism_decrease Arg1:T4 Arg2:T36	
+R6	metabolism_decrease Arg1:T4 Arg2:T9	
+R7	metabolism_decrease Arg1:T4 Arg2:T8	
+R8	metabolism_decrease Arg1:T4 Arg2:T10	
+R9	metabolism_decrease Arg1:T4 Arg2:T37	
+R10	enzyme_inhibition Arg1:T29 Arg2:T23	
+R11	metabolism_decrease Arg1:T30 Arg2:T32	
+R12	increase_pharmacokinetic_parameter Arg1:T4 Arg2:T6	
+R13	increase_pharmacokinetic_parameter Arg1:T4 Arg2:T34	
+R14	increase_pharmacokinetic_parameter Arg1:T4 Arg2:T35	
+R15	increase_pharmacokinetic_parameter Arg1:T4 Arg2:T7	
+R16	increase_pharmacokinetic_parameter Arg1:T4 Arg2:T36	
+R17	increase_pharmacokinetic_parameter Arg1:T4 Arg2:T9	
+R18	increase_pharmacokinetic_parameter Arg1:T4 Arg2:T8	
+R19	increase_pharmacokinetic_parameter Arg1:T4 Arg2:T10	
+R20	increase_pharmacokinetic_parameter Arg1:T4 Arg2:T37	
+R21	enzyme_inhibition Arg1:T11 Arg2:T37	
+R22	enzyme_inhibition Arg1:T11 Arg2:T10	
+R23	enzyme_inhibition Arg1:T11 Arg2:T8	
+R24	enzyme_inhibition Arg1:T11 Arg2:T9	
+R25	enzyme_inhibition Arg1:T11 Arg2:T36	
+R26	enzyme_inhibition Arg1:T11 Arg2:T7	
+R27	enzyme_inhibition Arg1:T11 Arg2:T35	
+R28	enzyme_inhibition Arg1:T11 Arg2:T34	
+R29	enzyme_inhibition Arg1:T11 Arg2:T6	
+R30	increase_pharmacokinetic_parameter Arg1:T29 Arg2:T23	
+R31	increase_pharmacokinetic_parameter Arg1:T30 Arg2:T32	

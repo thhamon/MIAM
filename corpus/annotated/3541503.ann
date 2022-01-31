@@ -1,0 +1,49 @@
+T1002	drug 96 104	warfarin
+T1003	meal 193 206	ordinary diet
+T1004	drug 245 253	warfarin
+T1006	frequency 398 403	daily
+T1008	food 481 488	spinach
+T1009	dosage 544 558	250 micrograms
+T10010	dosage 571 576	250 g
+T10011	food 577 584	spinach
+T10012	dosage 586 591	250 g
+T10013	food 592 600	broccoli
+T10014	dosage 605 612	37.5 cl
+T10015	interaction 618 632	did not result
+T10016	parameter 636 645	TT-values
+T10017	food 714 721	spinach
+T10018	frequency 733 738	daily
+T10020	parameter 759 768	TT-values
+T10030	food 67 71	wine
+T10031	parameter 137 148	Thrombotest
+T10032	parameter 150 152	TT
+T10033	treatedDisease 273 295	deep venous thrombosis
+T1005	duration 404 419	during one week
+T10035	drug 424 434	vitamin K1
+T10036	drug 436 444	Konakion
+T10037	food 493 501	broccoli
+T10038	food 507 517	table wine
+T10039	drug 559 569	vitamin K1
+T10040	food 613 617	wine
+T10041	drug 691 699	Konakion
+T10042	food 701 709	broccoli
+T10019	drug 996 1017	anticoagulant therapy
+T10029	frequency 519 540	Single administration
+T20023	mode 893 899	intake
+T20027	mode 938 944	intake
+T20034	treatedDisease 299 317	pulmonary embolism
+T20025	frequency 361 396	single and multiple administrations
+T20043	duration 739 754	during one week
+T20021	interaction 769 783	tended to rise
+T20022	frequency 883 892	excessive
+T20044	frequency 929 937	moderate
+T20028	food 948 955	alcohol
+T20045	value 646 675	outside the therapeutic range
+T2001	meal 37 62	vitamin K-rich vegetables
+T20024	mode 186 189	fed
+T2007	meal 447 472	vitamin K-rich vegetables
+T20046	value 784 812	above the therapeutic limit,
+T20026	meal 903 922	vitamin K-rich food
+T20047	frequency 214 224	continuous
+R1	physiological_effect_antagonism Arg1:T10042 Arg2:T1004	
+R2	physiological_effect_antagonism Arg1:T10017 Arg2:T1004	

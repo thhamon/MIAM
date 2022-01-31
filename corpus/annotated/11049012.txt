@@ -1,0 +1,10 @@
+Grapefruit juice can increase the plasma concentrations of oral methylprednisolone.
+OBJECTIVE:
+To investigate whether the pharmacokinetics of orally administered methylprednisolone and plasma cortisol concentrations are affected by administration of grapefruit juice.
+METHODS:
+In a randomised, two-phase, cross-over study, ten healthy subjects received either 200 ml double-strength grapefruit juice or water three times a day for 2 days. On day 3, 16 mg methylprednisolone was given orally with 200 ml grapefruit juice or water. Additionally, 200 ml grapefruit juice or water was ingested 0.5 h and 1.5 h after methylprednisolone administration. Plasma concentrations of methylprednisolone and cortisol were determined using liquid chromatography/mass spectrometry (LC/MS/MS) over a 47-h period.
+RESULTS:
+Grapefruit juice increased the total area under the plasma methylprednisolone concentration-time curve (AUC 0--infinity) by 75% (P < 0.001) and the elimination half-life (t1/2) of methylprednisolone by 35% (P < 0.001). The peak plasma concentration of methylprednisolone (Cmax) was increased by 27% (P < 0.01). Grapefruit juice delayed the time to the Cmax from 2.0 h to 3.0 h (P < 0.05). There was no significant difference in the plasma cortisol concentrations, measured after methylprednisolone administration, between the water and grapefruit juice phases. However, grapefruit juice slightly decreased the morning plasma cortisol concentrations before methylprednisolone administration (P < 0.05).
+CONCLUSIONS:
+Grapefruit juice given in high amounts moderately increases the AUC 0--infinity and t1/2 of oral methylprednisolone. The increase in t1/2 suggests that grapefruit juice can affect the systemic methylprednisolone metabolism. The clinical significance of the grapefruit juice-methylprednisolone interaction is small, but in some sensitive subjects high doses of grapefruit juice might enhance the effects of oral methylprednisolone.
+

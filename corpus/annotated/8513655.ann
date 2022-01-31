@@ -1,0 +1,57 @@
+T1002	drug 35 45	felodipine
+T1005	drug 191 201	felodipine
+T1008	drug 243 253	felodipine
+T10013	food 409 414	water
+T10014	food 448 453	juice
+T10015	studyType 459 485	randomized crossover trial
+T10016	population 489 505	nine healthy men
+T10020	pharmacokinetics 602 605	AUC
+T10024	value 698 710	170% +/- 24%
+T10026	drug 797 807	felodipine
+T10027	pharmacokinetics 819 822	AUC
+T10028	value 824 854	1.5 +/- 0.2 versus 2.2 +/- 0.2
+T10029	drug 871 881	felodipine
+T10030	pharmacokinetics 882 886	Cmax
+T10031	value 888 918	1.5 +/- 0.2 versus 2.2 +/- 0.2
+T10032	interaction 936 943	reduced
+T10033	interaction 961 971	inhibition
+T10034	drug 987 997	felodipine
+T10038	interaction 1081 1091	inhibition
+T10040	pharmacokinetics 1207 1223	pharmacokinetics
+T10041	food 1229 1234	water
+T10042	interaction 1239 1253	did not result
+T10043	pharmacokinetics 1273 1288	bioavailability
+T10044	component 100 108	naringin
+T10046	value 719 731	127% to 310%
+T10047	value 670 682	123% to 330%
+T10050	drug 299 316	dehydrofelodipine
+T2001	food 17 33	Grapefruit juice
+T2003	food 131 147	Grapefruit juice
+T2004	interaction 179 187	increase
+T2006	pharmacokinetics 202 217	bioavailability
+T2007	pharmacokinetics 223 239	pharmacokinetics
+T2009	mealTime 331 336	after
+T20010	dosage 362 368	200 ml
+T20011	food 369 374	water
+T20012	food 376 392	grapefruit juice
+T20017	food 512 528	grapefruit juice
+T20018	drug 543 553	felodipine
+T20019	pharmacokinetics 554 600	area under the plasma concentration-time curve
+T20021	pharmacokinetics 611 636	peak plasma concentration
+T20022	pharmacokinetics 638 642	Cmax
+T20023	value 649 661	206% +/- 23%
+T20025	food 772 777	water
+T20036	drug 1034 1044	felodipine
+T20037	pharmacokinetics 1067 1070	AUC
+T20039	pharmacokinetics 1122 1137	metabolic steps
+T20045	drug 779 796	Dehydrofelodipine
+T20048	drug 1049 1066	dehydrofelodipine
+T20053	interaction 46 58	interaction:
+T20051	component 397 405	naringin
+T20035	pharmacokinetics 975 1008	presystemic felodipine metabolism
+T20042	component 1308 1316	Naringin
+R1	metabolism_decrease Arg1:T2003 Arg2:T1005	
+R2	metabolism_decrease Arg1:T20017 Arg2:T20018	
+R5	metabolism_decrease Arg1:T20017 Arg2:T10029	
+R6	metabolism_decrease Arg1:T20017 Arg2:T10034	
+#1	AnnotatorNotes R6	Relation un peu "éloignée", voir si pertinent de la signaler

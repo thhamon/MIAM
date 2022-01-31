@@ -1,0 +1,89 @@
+T1	food 0 16	Grapefruit juice
+T2	value 1005 1011	by 35%
+T3	pharmacokinetics 1029 1054	peak plasma concentration
+T4	drug 1058 1076	methylprednisolone
+T5	pharmacokinetics 1078 1082	Cmax
+T6	interaction 1088 1097	increased
+T7	value 1098 1104	by 27%
+T8	food 1117 1133	Grapefruit juice
+T9	interaction 1134 1141	delayed
+T10	pharmacokinetics 1158 1162	Cmax
+T11	value 1163 1182	from 2.0 h to 3.0 h
+T12	parameter 1238 1268	plasma cortisol concentrations
+T13	mealTime 1279 1284	after
+T14	drug 1285 1303	methylprednisolone
+T15	food 1332 1337	water
+T16	food 1342 1358	grapefruit juice
+T17	food 1376 1392	grapefruit juice
+T18	interaction 1402 1411	decreased
+T19	parameter 1416 1454	morning plasma cortisol concentrations
+T20	mode 142 148	orally
+T21	drug 1462 1480	methylprednisolone
+T22	food 1521 1537	Grapefruit juice
+T23	dosage 1547 1559	high amounts
+T24	interaction 1560 1580	moderately increases
+T25	pharmacokinetics 1585 1588	AUC
+T26	pharmacokinetics 1605 1609	t1/2
+T27	mode 1613 1617	oral
+T28	drug 1618 1636	methylprednisolone
+T29	drug 162 180	methylprednisolone
+T30	interaction 1642 1650	increase
+T31	pharmacokinetics 1654 1658	t1/2
+T32	food 1673 1689	grapefruit juice
+T33	interaction 1690 1700	can affect
+T34	drug 1714 1732	methylprednisolone
+T35	pharmacokinetics 1733 1743	metabolism
+T36	food 1778 1794	grapefruit juice
+T37	drug 1795 1813	methylprednisolone
+T38	parameter 185 215	plasma cortisol concentrations
+T39	dosage 1867 1877	high doses
+T40	food 1881 1897	grapefruit juice
+T41	interaction 1904 1911	enhance
+T42	mode 1927 1931	oral
+T43	drug 1932 1950	methylprednisolone
+T44	interaction 21 29	increase
+T45	food 250 266	grapefruit juice
+T46	studyType 282 321	randomised, two-phase, cross-over study
+T47	population 323 343	ten healthy subjects
+T48	pharmacokinetics 34 55	plasma concentrations
+T49	dosage 360 366	200 ml
+T50	food 383 399	grapefruit juice
+T51	food 403 408	water
+T52	frequency 409 426	three times a day
+T53	duration 427 437	for 2 days
+T54	dosage 449 454	16 mg
+T55	drug 455 473	methylprednisolone
+T56	mode 484 490	orally
+T57	dosage 496 502	200 ml
+T58	food 503 519	grapefruit juice
+T59	food 523 528	water
+T60	dosage 544 550	200 ml
+T61	food 551 567	grapefruit juice
+T62	food 571 576	water
+T63	mode 581 589	ingested
+T64	mode 59 63	oral
+T65	mealTime 590 611	0.5 h and 1.5 h after
+T66	drug 612 630	methylprednisolone
+T67	drug 64 82	methylprednisolone
+T68	pharmacokinetics 647 668	Plasma concentrations
+T69	parameter 647 671;695 703	Plasma concentrations of cortisol
+T70	drug 672 690	methylprednisolone
+T71	food 806 822	Grapefruit juice
+T72	interaction 823 832	increased
+T73	pharmacokinetics 843 857;903 908	area under the curve
+T74	drug 865 883	methylprednisolone
+T75	pharmacokinetics 910 913	AUC
+T76	value 927 933	by 75%
+T77	pharmacokinetics 954 975	elimination half-life
+T78	pharmacokinetics 977 981	t1/2
+T79	drug 986 1004	methylprednisolone
+A1	valence T72 Augmentation
+A2	valence T24 Augmentation
+A3	valence T30 Augmentation
+A4	valence T18 Diminution
+A5	valence T6 Augmentation
+R1	metabolism_decrease Arg1:T1 Arg2:T67	
+R2	metabolism_decrease Arg1:T71 Arg2:T74	
+R4	metabolism_decrease Arg1:T22 Arg2:T28	
+R5	metabolism_decrease Arg1:T32 Arg2:T34	
+R6	metabolism_decrease Arg1:T40 Arg2:T43	

@@ -1,0 +1,48 @@
+T2	mode 58 62	oral
+T3	drug 84 93	ofloxacin
+T4	mode 147 151	oral
+T5	drug 173 186	ciprofloxacin
+T6	drug 191 200	ofloxacin
+T7	food 236 241	water
+T8	food 256 271	feeding product
+T9	population 298 319	13 healthy volunteers
+T10	pharmacokinetics 400 421	maximum concentration
+T11	interaction 459 466	reduced
+T12	food 505 510	water
+T13	interaction 539 546	reduced
+T14	pharmacokinetics 559 583	relative bioavailability
+T15	drug 587 600	ciprofloxacin
+T16	value 602 613	72% +/- 14%
+T17	drug 657 666	ofloxacin
+T18	drug 766 779	ciprofloxacin
+T19	drug 784 793	ofloxacin
+T20	pharmacokinetics 794 804	absorption
+T21	drug 810 823	ciprofloxacin
+T22	pharmacokinetics 824 834	absorption
+T23	interaction 839 846	reduced
+T24	drug 871 880	ofloxacin
+T25	pharmacokinetics 881 891	absorption
+T26	pharmacokinetics 63 80	bioavailabilities
+T27	drug 98 111	ciprofloxacin
+T28	pharmacokinetics 152 169	bioavailabilities
+T29	food 273 279	Ensure
+T30	pharmacokinetics 325 364	area under the concentration time curve
+T31	food 470 476	Ensure
+T32	food 532 538	Ensure
+#1	AnnotatorNotes T29	nom commercial nutrition entérale
+#2	AnnotatorNotes T32	nom commercial nutrition entérale
+#3	AnnotatorNotes T31	nom commercial nutrition entérale
+A1	valence T13 Diminution
+T33	value 668 680	90% +/- 8.3%
+T34	food 734 740	Ensure
+#4	AnnotatorNotes T34	nom commercial nutrition entérale
+T35	interaction 755 765	diminished
+A2	valence T35 Diminution
+A3	valence T23 Diminution
+A4	valence T11 Diminution
+T1	mode 27 34	enteral
+T36	mode 248 255	enteral
+T37	food 48 54	ensure
+T38	parameter 433 438	serum
+R1	absorption_decrease Arg1:T34 Arg2:T18	
+R2	absorption_decrease Arg1:T34 Arg2:T19	

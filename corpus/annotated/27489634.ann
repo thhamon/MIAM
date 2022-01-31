@@ -1,0 +1,40 @@
+T10022	drug 1183 1191	warfarin
+T10038	value 1082 1090	elevated
+T10039	pathology 18 57	Elevated international normalized ratio
+T2001	food 82 92	grapefruit
+T2002	drug 104 112	warfarin
+T2004	drug 201 209	warfarin
+T2008	dosage 297 302	10 mg
+T2009	dosage 421 426	65 mg
+T20010	value 490 494	4.77
+T20012	value 527 529	8%
+T20014	drug 595 603	warfarin
+T20015	food 632 642	grapefruit
+T20017	dosage 733 737	8 mg
+T20019	drug 898 906	warfarin
+T20020	dosage 907 912	65 mg
+T20021	food 1127 1143	grapefruit juice
+T2003	population 138 154	65-year-old male
+T20024	treatedDisease 171 185	atrial flutter
+T20025	frequency 210 221	chronically
+T2005	frequency 303 308	daily
+T2006	duration 309 334	for approximately 2 weeks
+T20027	value 404 407	1.7
+T20028	frequency 426 431	/week
+T20031	frequency 738 743	daily
+T20016	food 772 782	grapefruit
+T20032	value 869 872	2.1
+T20033	frequency 912 917	/week
+T20035	value 967 991	within therapeutic range
+T2007	parameter 27 57	international normalized ratio
+T20023	parameter 370 400	international normalized ratio
+T20026	parameter 437 467	international normalized ratio
+T20011	mode 625 631	eating
+T20029	mode 761 767	eating
+T20018	parameter 834 864	international normalized ratio
+T20030	parameter 927 957	international normalized ratio
+T20034	parameter 1091 1121	international normalized ratio
+T20013	pathology 680 695	active bleeding
+T20037	pathology 1082 1121	elevated international normalized ratio
+R1	physiological_effect_potentiation Arg1:T20021 Arg2:T10022	
+#1	AnnotatorNotes R1	effet pharmacodynamique déduit de l'effet pharmacocinétique. A enlever?

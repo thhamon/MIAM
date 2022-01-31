@@ -1,0 +1,28 @@
+T2	mode 64 73	ingestion
+T3	food 77 90	tropical fish
+T4	mode 183 192	ingestion
+T5	food 209 222	tropical fish
+T6	food 404 417	tropical fish
+T7	component 503 512	histamine
+T8	treatedDisease 39 60	tuberculosis patients
+T11	treatedDisease 158 179	tuberculosis patients
+T12	food 224 253	Sardinella (Amblygaster) sirm
+T13	food 423 431	skipjack
+T14	food 435 441	bonito
+T15	drug 443 452	Isoniazid
+T16	interaction 470 479	inhibitor
+A1	valence T16 Excès
+T17	food 486 490	fish
+T18	interaction 606 628	histamine intoxication
+A2	valence T18 Excès
+T1	pathology 16 35	Histamine poisoning
+T10	pathology 127 145	histamine reaction
+T9	interaction 574 578	rise
+T19	parameter 534 549	histamine level
+A3	valence T9 Augmentation
+T20	enzyme 458 469	histaminase
+R1	physiological_effect_potentiation Arg1:T6 Arg2:T15	
+R2	physiological_effect_potentiation Arg1:T13 Arg2:T15	
+R3	physiological_effect_potentiation Arg1:T14 Arg2:T15	
+R4	physiological_effect_potentiation Arg1:T17 Arg2:T15	
+R5	physiological_effect_potentiation Arg1:T7 Arg2:T15	

@@ -1,0 +1,53 @@
+T1001	pharmacokinetics 17 27	Absorption
+T1002	drug 31 56	minocycline hydrochloride
+T1003	drug 61 87	tetracycline hydrochloride
+T1004	food 99 103	food
+T1005	food 105 109	milk
+T1006	pharmacokinetics 142 162	Serum concentrations
+T1007	drug 166 192	tetracycline hydrochloride
+T1009	food 260 265	water
+T10010	food 267 271	milk
+T10011	dosage 285 291	300 mg
+T10012	pharmacokinetics 343 353	Absorption
+T10013	interaction 392 401	decreased
+T10014	drug 425 429	iron
+T10015	interaction 435 445	inhibition
+T10016	drug 451 462	minocycline
+T10017	food 491 495	milk
+T10018	interaction 501 511	inhibition
+T10019	food 558 562	food
+T10020	interaction 568 578	inhibition
+T10021	drug 584 595	minocycline
+T10022	pharmacokinetics 649 659	absorption
+T10023	food 665 669	food
+T10024	food 674 678	milk
+T10025	interaction 697 704	greater
+T10026	drug 709 721	tetracycline
+T1008	drug 197 222	minocycline hydrochloride
+T10027	food 275 279	meal
+T10028	drug 292 307	ferrous sulfate
+T10029	population 311 341	two groups of eight volunteers
+T10030	drugClass 362 373	antibiotics
+T10031	drug 476 488	tetracycline
+T10032	value 431 434	77%
+T10033	value 467 470	81%
+T10034	value 497 500	27%
+T10035	value 530 533	65%
+T10036	drug 517 528	minocycline
+T10037	drug 539 551	tetracycline
+T10038	value 564 567	13%
+T10039	drug 609 621	tetracycline
+T10040	value 600 603	46%
+T10041	interaction 628 645	inhibitory effect
+T10042	drug 731 742	minocycline
+T10043	drug 115 119	iron
+R1	absorption_decrease Arg1:T10017 Arg2:T10030	
+R2	absorption_decrease Arg1:T10019 Arg2:T10030	
+R3	absorption_decrease Arg1:T10017 Arg2:T10016	
+R4	absorption_decrease Arg1:T10017 Arg2:T10031	
+R5	absorption_decrease Arg1:T10019 Arg2:T10037	
+R6	absorption_decrease Arg1:T10019 Arg2:T10036	
+R7	absorption_decrease Arg1:T10023 Arg2:T10026	
+R8	absorption_decrease Arg1:T10023 Arg2:T10042	
+R9	absorption_decrease Arg1:T10024 Arg2:T10026	
+R10	absorption_decrease Arg1:T10024 Arg2:T10042	

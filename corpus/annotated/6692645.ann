@@ -1,0 +1,69 @@
+T1001	food 27 43	brussels sprouts
+T1002	food 48 55	cabbage
+T1003	population 98 118	Ten healthy subjects
+T1005	duration 144 151	10 days
+T1006	meal 160 172	control diet
+T1007	food 176 183	cabbage
+T1008	food 188 204	brussels sprouts
+T1009	meal 231 243	control diet
+T10010	drug 259 267	Oxazepam
+T10011	drug 291 304	acetaminophen
+T10012	meal 344 353	test diet
+T10013	interaction 354 364	stimulated
+T10014	pharmacokinetics 369 379	metabolism
+T10015	drug 383 396	acetaminophen
+T10016	interaction 418 426	enhanced
+T10018	value 462 465	16%
+T10019	interaction 466 474	decrease
+T10020	pharmacokinetics 478 493	mean plasma AUC
+T10021	value 497 500	17%
+T10022	interaction 501 509	increase
+T10023	pharmacokinetics 518 542	metabolic clearance rate
+T10024	interaction 547 556	increased
+T10028	value 653 655	8%
+T10029	interaction 656 664	increase
+T10031	interaction 732 755	returned toward control
+T10032	mode 779 782	fed
+T10033	meal 787 799	control diet
+T10034	interaction 826 847	no comparable changes
+T10035	pharmacokinetics 855 865	metabolism
+T10036	drug 869 882	acetaminophen
+T10039	drug 976 994	cysteine conjugate
+T10040	drug 1002 1032	3-methoxyacetaminophen sulfate
+T10042	interaction 1119 1128	decreased
+T10044	food 1142 1149	Cabbage
+T10045	food 1154 1170	brussels sprouts
+T10048	interaction 1185 1193	decrease
+T10050	value 1219 1222	19%
+T10051	interaction 1223 1231	increase
+T10053	drug 1269 1277	oxazepam
+T10054	interaction 1293 1302	no change
+T10056	drug 1383 1403	oxazepam glucuronide
+T10057	drug 1407 1415	oxazepam
+T10058	meal 128 139	three diets
+T10064	parameter 946 968	24-hr urinary recovery
+T10065	pharmacokinetics 59 75	drug conjugation
+T10027	parameter 673 695	24-hr urinary recovery
+T10049	pharmacokinetics 1197 1212	mean plasma AUC
+T10055	pharmacokinetics 1306 1322	mean plasma t1/2
+T2004	mode 124 127	fed
+T20017	pharmacokinetics 427 442	glucuronidation
+T20025	drug 566 591	acetaminophen glucuronide
+T20026	drug 595 608	acetaminophen
+T20030	drug 699 724	acetaminophen glucuronide
+T20037	drug 886 907	acetaminophen sulfate
+T20038	mode 927 930	ate
+T20041	pharmacokinetics 1056 1074	oxidative pathways
+T20043	value 1129 1140	13% and 22%
+T20046	interaction 1171 1178	induced
+T20047	value 1181 1184	17%
+T20061	meal 323 338	dietary regimen
+T20062	frequency 800 813	a second time
+T20063	meal 935 944	test diet
+T20067	meal 176 221	cabbage and brussels sprouts--containing diet
+T20052	pharmacokinetics 1240 1264	metabolic clearance rate
+R1	metabolism_increase Arg1:T10012 Arg2:T10015	
+R3	metabolism_increase Arg1:T10012 Arg2:T20026	
+#1	AnnotatorNotes T10012	Ajouter relations entre Brussel sprout, Cabbage et acetaminophen?
+R5	metabolism_increase Arg1:T10044 Arg2:T10053	
+R6	metabolism_increase Arg1:T10045 Arg2:T10053	

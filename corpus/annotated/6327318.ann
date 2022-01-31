@@ -1,0 +1,25 @@
+T1002	drug 61 68	digoxin
+T1003	pharmacokinetics 84 94	absorption
+T1005	food 138 146	guar gum
+T1006	pharmacokinetics 154 164	absorption
+T1007	drug 168 175	digoxin
+T1008	population 244 265	10 healthy volunteers
+T1009	food 267 275	Guar gum
+T10010	interaction 276 283	reduced
+T10012	pharmacokinetics 329 339	absorption
+T10013	drug 372 379	digoxin
+T10016	drug 73 83	penicillin
+T10018	studyType 222 240	double blind study
+T10020	food 434 442	guar gum
+T10023	food 39 56	fibre preparation
+T2001	food 27 35	guar gum
+T2004	population 98 101	man
+T20015	interaction 537 544	reduced
+T20017	drug 180 204	phenoxymethyl penicillin
+T20022	pharmacokinetics 491 517	area under the serum curve
+T20014	food 552 555	gum
+T20021	pharmacokinetics 453 482	peak penicillin concentration
+T20019	pharmacokinetics 284 311	serum digoxin concentration
+T20011	parameter 393 403	24 h urine
+R1	absorption_decrease Arg1:T20014 Arg2:T20017	
+R2	decrease_pharmacokinetic_parameter Arg1:T20014 Arg2:T20017	

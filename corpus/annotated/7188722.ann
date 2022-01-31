@@ -1,0 +1,32 @@
+T1	component 0 9	Histamine
+T2	pathology 0 19	Histamine poisoning
+T3	mealTime 107 112	after
+T4	mode 113 122	ingestion
+T5	food 126 135	tuna fish
+T6	population 148 168	tuberculous patients
+T7	treatedDisease 148 159	tuberculous
+T8	population 23 43	tuberculous patients
+T9	treatedDisease 23 34	tuberculous
+T10	food 294 298	fish
+T11	food 300 308	skipjack
+T12	food 313 323	Sardinella
+T13	food 325 336	Amblygaster
+T14	drug 344 353	Isoniazid
+T15	drugClass 397 417	antituberculous drug
+T16	component 439 448	histamine
+T17	interaction 439 458	histamine inhibitor
+T18	mealTime 44 49	after
+T19	food 465 474	tuna fish
+T20	component 493 502	histamine
+T21	mode 50 59	ingestion
+T22	mode 515 520	eaten
+T23	parameter 526 549	histamine concentration
+T24	interaction 574 582	increase
+T25	pathology 606 628	histamine intoxication
+T26	food 63 72	tuna fish
+T27	studyType 74 83	Two cases
+T28	component 87 96	histamine
+T29	pathology 87 106	histamine poisoning
+A1	valence T24 Augmentation
+R1	physiological_effect_potentiation Arg1:T19 Arg2:T14	
+R2	physiological_effect_potentiation Arg1:T16 Arg2:T14	

@@ -1,0 +1,71 @@
+T1	food 29 45	grapefruit juice
+T2	pharmacokinetics 71 85	concentrations
+T3	food 183 199	grapefruit juice
+T5	enzyme 231 237	CYP1A2
+T6	drug 275 284	verapamil
+T7	pharmacokinetics 285 302	biotransformation
+T9	studyType 530 556	randomised crossover study
+T10	drug 576 585	verapamil
+T11	dosage 587 593	120 mg
+T12	drug 595 602	Isoptin
+T13	duration 626 632	7 days
+T14	food 685 690	water
+T15	drug 745 754	verapamil
+T16	drug 759 783	norverapamil enantiomers
+T17	interaction 1033 1042	increased
+T18	pharmacokinetics 1122 1125	AUC
+T20	pharmacokinetics 1247 1252	C(max
+T21	value 1261 1270	1.63-fold
+T22	interaction 1296 1304	increase
+T23	drug 1387 1396	verapamil
+T24	pharmacokinetics 1452 1455	AUC
+T25	pharmacokinetics 1468 1473	C(max
+T26	drug 1540 1549	verapamil
+T27	drug 1554 1578	norverapamil enantiomers
+T28	component 1622 1632	naringenin
+T29	interaction 1733 1741	increase
+T30	interaction 1818 1827	increased
+T31	parameter 1836 1858	6-beta-hydroxycortisol
+T32	drug 1923 1932	verapamil
+T33	food 1963 1979	grapefruit juice
+T34	drug 61 70	verapamil
+T35	enzyme 140 157	cytochrome P(450)
+T36	enzyme 158 166	(CYP)3A4
+T37	interaction 170 179	inhibited
+A1	valence T37 Diminution
+T4	drug 385 394	verapamil
+T38	population 429 508	Twenty-four young healthy volunteers of both sexes (12 smokers, 12 non-smokers)
+#1	AnnotatorNotes T12	nom commercial
+T8	frequency 618 621	bid
+T39	frequency 710 715	daily
+T40	drug 1043 1060	( R, S)-verapamil
+T19	value 1148 1157	1.45-fold
+T41	pharmacokinetics 1204 1229	peak plasma concentration
+T42	drug 1406 1418	norverapamil
+T43	parameter 893 905	PR intervals
+T44	parameter 1667 1679	PR intervals
+T45	pathology 1651 1679	Prolongation of PR intervals
+#2	AnnotatorNotes T45	side effect
+T46	enzyme 1904 1909	CYP3A
+T47	value 1513 1535	0.61-fold to 0.85-fold
+T48	drug 2021 2030	verapamil
+T50	food 201 202	G
+T51	food 680 681	G
+T52	food 1017 1018	G
+T53	food 1872 1873	G
+T54	food 1794 1795	G
+T55	food 1683 1684	G
+T56	food 1594 1595	G
+T60	pharmacokinetics 395 411	pharmacokinetics
+T49	dosage 666 669	1 l
+T57	pharmacokinetics 727 741	concentrations
+T59	pharmacokinetics 850 876	pharmacokinetic parameters
+T61	pharmacokinetics 1065 1104	area under the concentration-time curve
+T62	pharmacokinetics 1308 1322	concentrations
+T63	drug 1335 1361	( R)- and ( S)-enantiomers
+T64	pharmacokinetics 1633 1649	pharmacokinetics
+T65	parameter 1828 1835	urinary
+T66	interaction 1883 1892	induction
+T67	value 1748 1754	350 ms
+R1	metabolism_decrease Arg1:T52 Arg2:T40	
+R2	enzyme_inhibition Arg1:T52 Arg2:T40	

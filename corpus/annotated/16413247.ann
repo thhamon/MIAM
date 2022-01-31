@@ -1,0 +1,99 @@
+T1	dosage 1009 1013	8 oz
+T2	drug 1024 1035	fluconazole
+T3	pharmacokinetics 1039 1055	CYP2C9 inhibitor
+T4	enzyme 1039 1045	CYP2C9
+T5	dosage 1092 1096	8 oz
+T6	food 1100 1105	water
+T7	drug 1116 1127	Flubiprofen
+T8	pharmacokinetics 1128 1141	hydroxylation
+T9	population 1142 1150	in vitro
+T10	interaction 1151 1162	was reduced
+T11	other 1155 1162	reduced
+T12	value 1163 1176	to 11% +/- 8%
+T13	food 1206 1216	brewed tea
+T14	value 1218 1231	to 10% +/- 7%
+T15	food 1246 1257	grape juice
+T16	value 1259 1273	to 56% +/- 16%
+T17	food 1288 1303	cranberry juice
+T18	value 1305 1318	to 85% +/- 5%
+T19	food 1333 1357	cranberry juice placebo,
+T20	value 1362 1375	to 21% +/- 6%
+T21	drug 1410 1424	sulfaphenazole
+T22	drug 1487 1499	Flurbiprofen
+T23	drug 15 27	flurbiprofen
+T24	pharmacokinetics 1500 1509	clearance
+T25	pharmacokinetics 1529 1550	elimination half-life
+T26	interaction 1567 1581	did not differ
+T27	studyType 158 170	case reports
+T28	pharmacokinetics 1634 1643	clearance
+T29	drug 1651 1662	fluconazole
+T30	interaction 1711 1718	reduced
+T31	studyType 1737 1752	placebo control
+T32	pharmacokinetics 1811 1820	half-life
+T33	interaction 1825 1834	prolonged
+T34	pharmacokinetics 186 198	potentiation
+T35	drug 1902 1923	4-hydroxyflurbiprofen
+T36	interaction 1944 1951	reduced
+T37	drug 1955 1966	fluconazole
+T38	food 1999 2010	grape juice
+T39	food 2015 2018	tea
+T40	drug 202 210	warfarin
+T41	pharmacokinetics 2028 2043	CYP2C9 activity
+T42	enzyme 2028 2034	CYP2C9
+T43	population 2044 2052	in vitro
+T44	mode 2068 2077	beverages
+T45	enzyme 2086 2092	CYP2C9
+T46	pharmacokinetics 2086 2111	CYP2C9-mediated clearance
+T47	interaction 211 218	induced
+T48	drug 2115 2127	flurbiprofen
+T49	population 2131 2137	humans
+T50	pharmacokinetics 2148 2175;2190 2205	pharmacokinetic interaction highly unlikely
+T51	drug 2181 2189	warfarin
+T52	drugEffect 219 234	anticoagulation
+T53	food 238 253	cranberry juice
+T54	interaction 272 282	inhibition
+T55	enzyme 287 317	uman cytochrome P450 (CYP) 2C9
+T56	food 33 48	cranberry juice
+T57	pharmacokinetics 350 359	clearance
+T58	drug 374 398	S-enantiomer of warfarin
+T59	drug 390 398	warfarin
+T60	food 440 455	cranberry juice
+T61	pharmacokinetics 479 494	CYP2C9 activity
+T62	enzyme 479 485	CYP2C9
+T63	food 50 61	grape juice
+T64	studyType 509 529	in vitro and in vivo
+T65	mode 557 566	beverages
+T66	pharmacokinetics 570 585	CYP2C9 activity
+T67	enzyme 570 576	CYP2C9
+T68	population 602 624	human liver microsomes
+T69	food 63 66	tea
+T70	drug 636 648	flurbiprofen
+T71	pharmacokinetics 649 662	hydroxylation
+T72	studyType 691 705	clinical study
+T73	population 706 727	14 healthy volunteers
+T74	drug 72 83	fluconazole
+T75	dosage 737 743	100 mg
+T76	drug 744 756	flurbiprofen
+T77	studyType 777 794	crossover fashion
+T78	drug 842 854	Flurbiprofen
+T79	studyType 85 114	in vitro and clinical studies
+T80	mealTime 855 867	was preceded
+T81	food 909 932	cranberry juice placebo
+T82	dosage 934 938	8 oz
+T83	food 945 960	cranberry juice
+T84	dosage 962 966	8 oz
+T85	food 973 983	brewed tea
+T86	dosage 985 989	8 oz
+T87	food 996 1007	grape juice
+#11	AnnotatorNotes T11	événement
+#58	AnnotatorNotes T58	métabolite
+A1	valence T10 Diminution
+A2	valence T30 Diminution
+A3	valence T26 Négation
+A4	valence T36 Diminution
+R1	enzyme_inhibition Arg1:T13 Arg2:T7	
+R2	enzyme_inhibition Arg1:T15 Arg2:T7	
+R3	enzyme_inhibition Arg1:T17 Arg2:T7	
+R4	enzyme_inhibition Arg1:T19 Arg2:T7	
+R5	enzyme_inhibition Arg1:T38 Arg2:T48	
+R6	enzyme_inhibition Arg1:T39 Arg2:T48	

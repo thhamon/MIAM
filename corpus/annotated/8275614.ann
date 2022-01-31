@@ -1,0 +1,53 @@
+T1005	pharmacokinetics 115 130	bioavailability
+T1006	drugClass 139 174	dihydropyridine calcium antagonists
+T10014	food 426 442	grapefruit juice
+T10018	pharmacokinetics 577 598	maximum concentration
+T10019	drug 602 613	nisoldipine
+T10020	value 617 629	406% +/- 73%
+T10023	interaction 792 799	reduced
+T10024	drug 822 833	nisoldipine
+T10026	interaction 906 916	inhibition
+T10028	pharmacokinetics 1045 1061	pharmacokinetics
+T10029	food 1067 1072	water
+T10033	function 1259 1269	heart rate
+T10034	mode 1390 1399	ingestion
+T10041	value 763 774	81% to 682%
+T1009	drug 288 299	nisoldipine
+T10010	studyType 335 362	Latin square-designed trial
+T2001	food 27 43	grapefruit juice
+T2003	drug 60 71	nisoldipine
+T2004	pharmacokinetics 72 88	pharmacokinetics
+T2007	food 204 220	grapefruit juice
+T2008	pharmacokinetics 268 284	pharmacokinetics
+T20011	mode 310 316	tablet
+T20012	population 372 386	12 healthy men
+T20013	food 419 424	water
+T20015	food 539 544	water
+T20016	food 546 562	grapefruit juice
+T20017	interaction 563 572	increased
+T20021	interaction 678 687	increased
+T20022	value 742 754	198% +/- 46%
+T20025	value 851 861	58% +/- 9%
+T20030	interaction 1147 1161	did not change
+T20031	drug 1162 1173	nisoldipine
+T20035	food 1403 1419	grapefruit juice
+T20036	drug 1424 1435	nisoldipine
+T20039	value 652 664	107% to 836%
+T20040	pharmacokinetics 692 738	area under the plasma concentration-time curve
+T20042	value 870 881	13% to 100%
+T20043	interaction 996 1007	interaction
+T2002	component 48 56	naringin
+T20046	interaction 182 200	markedly augmented
+T20037	component 241 262	bioflavonoid naringin
+T20038	component 460 468	naringin
+T20047	pharmacokinetics 800 847	time to reach maximum nisoldipine concentration
+T20027	pharmacokinetics 920 942	presystemic metabolism
+T20048	interaction 959 970	enhancement
+T20049	pharmacokinetics 974 991	drug dissolution.
+T20044	component 1130 1138	naringin
+T20050	mode 1139 1146	capsule
+T20051	pharmacokinetics 1174 1190	pharmacokinetics
+T20032	function 1240 1254	blood pressure
+R1	metabolism_decrease Arg1:T2007 Arg2:T1006	
+R2	metabolism_decrease Arg1:T20037 Arg2:T1006	
+R3	metabolism_decrease Arg1:T20016 Arg2:T10019	

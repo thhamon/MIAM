@@ -1,0 +1,65 @@
+T10018	drug 530 539	quinidine
+T10019	pharmacokinetics 897 923	pharmacokinetic parameters
+T10020	drug 927 936	quinidine
+T10021	food 960 976	grapefruit juice
+T10022	food 980 985	water
+T10028	value 1202 1205	33%
+T10029	interaction 1206 1214	decrease
+T10034	pharmacokinetics 1336 1339	AUC
+T10035	drug 1343 1352	quinidine
+T10039	food 1587 1603	grapefruit juice
+T10041	interaction 1645 1654	reduction
+T10046	pharmacokinetics 1773 1783	metabolism
+T10047	drug 1787 1796	quinidine
+T10050	parameter 499 513	Plasma samples
+T10052	parameter 717 735	electrocardiograms
+T10053	parameter 737 741	ECGs
+T10054	interaction 868 893	no significant difference
+T10055	pharmacokinetics 1029 1033	tmax
+T10023	drug 1271 1289	3-hydroxyquinidine
+T10024	drug 1383 1401	3-hydroxyquinidine
+T10057	interaction 1465 1512	changes in the rate-corrected QT (QTc) interval
+T10059	pharmacokinetics 1537 1552	pharmacokinetic
+T10061	drug 1800 1818	3-hydroxyquinidine
+T1009	drug 379 396	quinidine sulfate
+T10013	parameter 807 810	ECG
+T10049	pharmacokinetics 998 1027	time to maximum concentration
+T2001	food 27 43	grapefruit juice
+T2002	pharmacokinetics 51 67	pharmacokinetics
+T2003	drug 92 101	quinidine
+T2004	population 105 123	healthy volunteers
+T2005	food 193 209	grapefruit juice
+T2006	pharmacokinetics 217 228	disposition
+T2007	drug 232 249	quinidine sulfate
+T2008	parameter 265 277	QT intervals
+T20010	mode 284 288	oral
+T20011	population 307 337	twelve healthy male volunteers
+T20012	mode 365 369	oral
+T20014	dosage 406 412	400 mg
+T20015	dosage 419 425	240 mL
+T20016	food 429 434	water
+T20017	food 438 454	grapefruit juice
+T20025	food 1082 1087	water
+T20026	food 1128 1144	grapefruit juice
+T20027	food 1166 1182	grapefruit juice
+T20030	pharmacokinetics 1222 1261	area under the concentration-time curve
+T20031	pharmacokinetics 1263 1266	AUC
+T20032	food 1304 1309	water
+T20033	interaction 1323 1331	increase
+T20036	pharmacokinetics 1376 1379	AUC
+T20037	pharmacokinetics 1409 1412	AUC
+T20038	drug 1416 1425	quinidine
+T20040	interaction 1611 1618	delayed
+T20042	food 1694 1710	grapefruit juice
+T20043	pharmacokinetics 1732 1742	absorption
+T20044	drug 1746 1755	quinidine
+T20045	interaction 1760 1768	inhibits
+T20048	dosage 361 364	two
+T20051	drug 566 584	3-hydroxyquinidine
+T20056	parameter 1427 1453	Pharmacodynamic parameters
+T20049	value 1046 1055	1.6 hours
+T20065	value 1092 1101	3.3 hours
+T20057	parameter 1637 1640	QTc
+T20058	interaction 1721 1727	delays
+R2	absorption_decrease Arg1:T20042 Arg2:T20044	
+R3	metabolism_decrease Arg1:T20042 Arg2:T10047	

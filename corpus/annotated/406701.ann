@@ -1,0 +1,36 @@
+T1001	drug 37 46	isoniazid
+T1002	mode 50 59	ingestion
+T1003	food 63 67	fish
+T1004	component 80 89	histamine
+T1005	food 169 173	fish
+T1006	food 179 187	skipjack
+T1009	drug 410 419	Isoniazid
+T10011	pharmacokinetics 503 513	metabolism
+T10012	component 517 526	histamine
+T10013	component 662 671	histamine
+T10014	food 683 691	skipjack
+T10015	pharmacokinetics 735 745	metabolism
+T10017	food 189 195	bonito
+T10018	drug 228 237	isoniazid
+T10019	treatedDisease 212 224	tuberculosis
+T10020	food 314 322	Skipjack
+T10021	component 382 391	histamine
+T10022	food 404 408	fish
+T10023	enzyme 445 456	histaminase
+T10024	pathology 293 312	histamine poisoning
+T1007	component 619 628	histamine
+T10025	drug 716 725	isoniazid
+T10027	pathology 816 835	histamine poisoning
+T10016	pathology 910 922	intoxication
+T10028	population 966 977	21 patients
+T10029	interaction 700 712	interference
+T1008	component 753 758	amine
+T20031	pathology 16 33	Adverse reactions
+T20032	mode 122 128	eating
+T2008	interaction 425 441	potent inhibitor
+T20023	population 582 596	these patients
+T20034	population 198 237	patients with tuberculosis on isoniazid
+R1	physiological_effect_potentiation Arg1:T10013 Arg2:T10025	
+R2	physiological_effect_potentiation Arg1:T10014 Arg2:T10025	
+#1	AnnotatorNotes R2	augmentation "réciproque" des effets indésirables de l'histamine apportée par le poisson et par l'action pharmacodynamique de l'isoniazide
+#2	AnnotatorNotes R1	augmentation "réciproque" des effets indésirables de l'histamine apportée par le poisson et par l'action pharmacodynamique de l'isoniazide

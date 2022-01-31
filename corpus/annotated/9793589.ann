@@ -1,0 +1,69 @@
+T1	pharmacokinetics 0 24	Relative bioavailability
+T2	mealTime 1001 1006	after
+T3	pharmacokinetics 1059 1062	AUC
+T4	mealTime 1074 1088	with breakfast
+T5	dosage 1090 1111	103.8 micrograms.h/mL
+T6	food 1117 1130	Sustacal Plus
+T7	dosage 1132 1153	118.8 micrograms.h/mL
+T8	interaction 1155 1181	were significantly greater
+T9	drug 1265 1275	atovaquone
+T10	mode 1276 1280	oral
+T11	pharmacokinetics 132 156	relative bioavailability
+T12	pharmacokinetics 1323 1338	bioavailability
+T13	mealTime 1357 1362	after
+T14	meal 1363 1367	food
+T15	meal 1373 1393	nutrition supplement
+T16	component 1414 1417	fat
+T17	drug 1448 1458	atovaquone
+T18	food 1475 1488	Sustacal Plus
+T19	interaction 1505 1512	reduced
+T20	pharmacokinetics 1513 1523	absorption
+T21	frequency 162 168	single
+T22	drug 169 179	atovaquone
+T23	dosage 180 186	750 mg
+T24	mode 198 202	oral
+T25	mealTime 233 246	fasting state
+T26	mealTime 248 253	after
+T27	meal 256 272	normal breakfast
+T28	mealTime 278 283	after
+T29	drug 28 38	atovaquone
+T30	food 287 315	enteral nutrition supplement
+T31	population 325 347	Ten healthy volunteers
+T32	frequency 359 365	single
+T33	drug 374 384	atovaquone
+T34	dosage 396 402	750 mg
+T35	mealTime 408 421	while fasting
+T36	studyType 467 499	randomized in a crossover design
+T37	drug 515 525	atovaquone
+T38	mealTime 531 544	within 1 hour
+T39	meal 560 576	normal breakfast
+T40	component 578 581	fat
+T41	dosage 590 594	21 g
+T42	dosage 600 606	16 oz.
+T43	food 610 623	Sustacal Plus
+T44	component 625 628	fat
+T45	dosage 637 641	28 g
+T46	mealTime 694 699	after
+T47	drug 705 715	atovaquone
+T48	drug 753 763	atovaquone
+T49	food 76 104	enteral nutrition supplement
+T50	pharmacokinetics 764 788	concentrations in plasma
+T51	drug 813 823	atovaquone
+T52	meal 849 865	normal breakfast
+T53	food 872 900	enteral nutrition supplement
+T54	food 910 923	Sustacal Plus
+T55	interaction 939 948	increased
+T56	mode 953 957	oral
+T57	pharmacokinetics 958 982	relative bioavailability
+T58	pharmacokinetics 993 996	AUC
+#43	AnnotatorNotes T43	drug? cf commentaire plus haut
+#49	AnnotatorNotes T49	Medicament ou aliment? difficile à déterminer! (règlementairement parlant, ce n'est pas un médicament, mais c'est prescrit par les médecins comme complément alimentaire)
+A1	valence T8 Augmentation
+A2	valence T19 Diminution
+A3	valence T55 Augmentation
+R1	absorption_increase Arg1:T52 Arg2:T51	
+R2	absorption_increase Arg1:T53 Arg2:T51	
+R3	absorption_increase Arg1:T54 Arg2:T51	
+R4	absorption_increase Arg1:T14 Arg2:T9	
+R5	absorption_increase Arg1:T15 Arg2:T9	
+R6	absorption_increase Arg1:T16 Arg2:T9	

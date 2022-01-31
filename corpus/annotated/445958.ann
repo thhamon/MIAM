@@ -1,0 +1,25 @@
+T1001	food 34 38	bran
+T1002	drug 42 49	digoxin
+T1003	pharmacokinetics 50 60	absorption
+T1004	meal 96 109	dietary fiber
+T1005	drug 113 120	digoxin
+T1009	dosage 324 329	22 gm
+T10010	food 330 334	bran
+T10013	interaction 417 431	did not change
+T10014	food 496 500	Bran
+T10015	interaction 541 550	reduction
+T10018	population 152 163	12 patients
+T10019	drug 171 178	digoxin
+T10020	frequency 335 340	daily
+T10021	value 449 454	+0.5%
+T10022	pharmacokinetics 180 192	Steady-state
+T10023	meal 301 318	diet supplemented
+T2006	pharmacokinetics 121 131	absorption
+T2008	meal 263 275	regular diet
+T20016	drug 554 561	digoxin
+T20017	pharmacokinetics 562 572	absorption
+T20024	value 456 493	90% confidence interval, -12% to +14%
+T20011	meal 363 383	bran supplementation
+T20026	interaction 16 30	Lack of effect
+T2007	pharmacokinetics 193 221	serum digoxin concentrations
+T20012	pharmacokinetics 389 416	serum digoxin concentration

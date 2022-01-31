@@ -1,0 +1,60 @@
+T1003	drug 73 86	acetaminophen
+T1005	food 209 219	watercress
+T1007	pharmacokinetics 294 304	metabolism
+T1008	pharmacokinetics 310 326	pharmacokinetics
+T1009	drug 330 343	acetaminophen
+T10021	drug 664 686	cysteine acetaminophen
+T10023	drug 755 772	Cys-acetaminophen
+T10024	value 790 800	28% +/- 3%
+T10025	value 808 818	21% +/- 4%
+T10026	drug 887 904	Cys-acetaminophen
+T10028	drug 933 950	Cys-acetaminophen
+T10034	drug 1125 1142	Cys-acetaminophen
+T10038	drug 1217 1234	Cys-acetaminophen
+T10039	pharmacokinetics 1308 1340	plasma pharmacokinetic processes
+T10045	drug 1616 1629	acetaminophen
+T10048	food 108 118	watercress
+T10049	population 122 138	human volunteers
+T10050	food 254 275	cruciferous vegetable
+T10052	food 500 510	watercress
+T10058	parameter 1086 1092	plasma
+T10029	interaction 1444 1455	not altered
+T2001	interaction 17 25	Decrease
+T2006	drug 280 293	acetaminophen
+T20010	studyType 382 397	crossover trial
+T20011	mode 428 432	oral
+T20012	drug 441 454	acetaminophen
+T20013	dosage 456 460	1 gm
+T20015	mode 487 496	ingestion
+T20016	dosage 524 529	50 gm
+T20017	drug 551 564	acetaminophen
+T20018	mode 575 584	ingestion
+T20019	interaction 625 634	reduction
+T20022	drug 688 705	Cys-acetaminophen
+T20030	interaction 975 984	decreased
+T20031	value 988 998	55% +/- 9%
+T20032	value 1003 1013	52% +/- 7%
+T20033	pharmacokinetics 1104 1121	urinary excretion
+T20035	interaction 1164 1171	reduced
+T20036	interaction 1175 1183	decrease
+T20037	drug 1187 1213	mercapturate acetaminophen
+T20040	pharmacokinetics 1349 1367	urinary excretions
+T20041	drug 1371 1384	acetaminophen
+T20042	drug 1386 1411	acetaminophen glucuronide
+T20043	drug 1417 1438	acetaminophen sulfate
+T20044	interaction 1565 1573	decrease
+T20046	interaction 1647 1657	inhibition
+T20051	population 401 417	human volunteers
+T20053	food 588 598	watercress
+T20054	pharmacokinetics 743 786	peak plasma Cys-acetaminophen concentration
+T20059	food 1477 1487	watercress
+T20060	food 1545 1555	watercress
+T20014	frequency 421 427	single
+T2002	drug 29 69	plasma and urinary oxidative metabolites
+T2004	mealTime 472 486	10 hours after
+T20020	pharmacokinetics 642 731	area under the plasma cysteine acetaminophen (Cys-acetaminophen) concentration-time curve
+T20027	parameter 1269 1293	plasma and urine samples
+T20055	pharmacokinetics 1581 1612	levels of oxidative metabolites
+T20047	pharmacokinetics 1661 1681	oxidative metabolism
+R1	metabolism_decrease Arg1:T20053 Arg2:T20017	
+R5	metabolism_decrease Arg1:T20060 Arg2:T10045	

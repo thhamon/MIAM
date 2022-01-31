@@ -1,0 +1,60 @@
+T10010	pharmacokinetics 317 333	pharmacokinetics
+T10018	pharmacokinetics 532 548	pharmacokinetics
+T10037	pharmacokinetics 961 974	PK parameters
+T10039	dosage 1002 1016	dose-dependent
+T10046	pharmacokinetics 1171 1187	pharmacokinetics
+T10014	pharmacokinetics 550 552	PK
+T10060	pharmacokinetics 749 766	systemic exposure
+T1003	pharmacokinetics 46 63	systemic exposure
+T10013	pharmacokinetics 1069 1086	systemic exposure
+T2001	food 18 29	Apple juice
+T2004	food 99 110	Fruit juice
+T2005	interaction 111 118	reduces
+T2006	pharmacokinetics 123 144	plasma concentrations
+T2007	enzyme 202 209	OATP2B1
+T2008	pharmacokinetics 219 240	intestinal absorption
+T2009	food 298 309	apple juice
+T20011	drug 337 345	atenolol
+T20017	studyType 480 526	In a three-phase, one-sequence crossover study
+T20019	drug 557 565	atenolol
+T20021	dosage 604 609	50 mg
+T20022	drug 638 646	atenolol
+T20023	dosage 659 665	300 ml
+T20024	food 666 671	water
+T20025	dosage 673 680	1200 ml
+T20026	food 681 692	apple juice
+T20027	dosage 696 702	600 ml
+T20028	food 703 714	apple juice
+T20029	food 716 727	Apple juice
+T20032	food 836 847	apple juice
+T20033	food 850 855	water
+T20034	dosage 879 886	1200 ml
+T20035	dosage 910 916	600 ml
+T20036	pharmacokinetics 926 929	AUC
+T20038	drug 978 986	atenolol
+T20040	food 1027 1038	apple juice
+T20041	food 1040 1051	Apple juice
+T20047	drug 1191 1199	atenolol
+T20048	food 1236 1241	water
+T20049	food 1245 1256	apple juice
+T20050	drug 67 75	atenolol
+T20020	drug 610 618	atenolol
+T20051	drug 770 778	atenolol
+T20052	value 861 865	0.18
+T20053	value 867 871	0.13
+T20054	value 873 877	0.25
+T20055	value 892 896	0.42
+T20056	value 898 902	0.30
+T20057	value 904 908	0.59
+T20058	drug 1090 1098	atenolol
+T2002	interaction 30 45	greatly reduces
+T20059	drugClass 156 179	β-adrenoceptor blockers
+T20060	interaction 191 201	inhibiting
+T20030	interaction 728 744	markedly reduced
+T20042	interaction 1052 1068	markedly reduced
+T20013	pharmacokinetics 784 805	geometric mean ratios
+T20012	population 347 450	Twelve healthy Korean volunteers with genotypes of SLCO2B1 c.1457C> T (*1/*1 (n = 6) and *3/*3 (n = 6))
+R1	absorption_decrease Arg1:T2004 Arg2:T20059	
+R2	absorption_decrease Arg1:T20029 Arg2:T20051	
+R3	decrease_pharmacokinetic_parameter Arg1:T20041 Arg2:T20058	
+R4	decrease_pharmacokinetic_parameter Arg1:T2004 Arg2:T20059	

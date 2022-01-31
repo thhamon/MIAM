@@ -1,0 +1,90 @@
+T1002	food 52 55	tea
+T1003	food 60 66	coffee
+T1004	food 147 150	tea
+T1005	food 155 161	coffee
+T1006	food 208 211	tea
+T1008	food 367 370	tea
+T1009	food 375 381	coffee
+T10010	component 462 470	caffeine
+T10013	drug 493 508	sodium chloride
+T10014	interaction 509 516	did not
+T10015	food 697 700	tea
+T10017	food 830 833	tea
+T10018	drug 869 872	CPZ
+T10019	dosage 946 948	10
+T10022	mode 1103 1107	oral
+T10023	food 1126 1129	tea
+T10024	drug 1134 1137	CPZ
+T10025	drug 1172 1175	CPZ
+T10028	component 1283 1291	caffeine
+T10029	mode 1363 1369	orally
+T10030	drugClass 1383 1394	neuroleptic
+T10031	food 1449 1455	coffee
+T10032	food 1476 1479	tea
+T10033	interaction 1543 1549	affect
+T10034	pharmacokinetics 1554 1564	absorption
+T10035	mode 1589 1595	orally
+T10036	drugClass 255 267	neuroleptics
+T10037	drug 115 128	phenothiazine
+T10038	drugClass 129 141	neuroleptics
+T10040	interaction 230 243	precipitation
+T10042	food 322 328	coffee
+T10043	drugClass 416 428	neuroleptics
+T10044	interaction 524 535	precipitate
+T10045	drug 541 555	chlorpromazine
+T10047	drug 607 622	sodium benzoate
+T10048	drug 627 644	trisodium citrate
+T10049	drug 672 686	chlorpromazine
+T10050	drug 688 691	CPZ
+T10016	drug 796 804	[3H]-CPZ
+T10051	food 908 911	tea
+T10052	dosage 892 904	standard cup
+T10053	value 916 919	80%
+T10056	population 1141 1145	rats
+T10058	food 1303 1306	tea
+T10059	drug 1568 1582	phenothiazines
+T10060	interaction 560 572	precipitates
+T10061	interaction 398 411	precipitating
+T10062	interaction 873 885	precipitated
+T10065	interaction 1056 1067	interaction
+T10066	interaction 1402 1414	precipitated
+T10011	component 472 488	caffeine citrate
+T10012	interaction 779 792	precipitation
+T2001	drug 32 46	chlorpromazine
+T2007	food 216 222	coffee
+T20020	dosage 949 954	40 mg
+T20021	dosage 978 984	800 mg
+T20026	interaction 1194 1201	reduced
+T20027	food 1240 1243	tea
+T20039	protocole 174 182	in vitro
+T20041	food 277 280	Tea
+T20046	drug 588 605	sodium salicylate
+T20054	value 1045 1048	20%
+T20055	protocole 1088 1095	in vivo
+T20057	pathology 1151 1168	cataleptic effect
+T20064	interaction 1014 1026	precipitated
+T20068	interaction 95 106	interaction
+T20069	mode 186 204	Filtered infusions
+T20011	interaction 653 663	nteraction
+T20040	interaction 1525 1536	interaction
+T20071	interaction 17 28	Interaction
+T20072	interaction 297 316	heavier precipitate
+T20044	interaction 838 849	'saturable'
+R1	absorption_decrease Arg1:T1006 Arg2:T10036	
+R2	absorption_decrease Arg1:T2007 Arg2:T10036	
+R3	absorption_decrease Arg1:T10010 Arg2:T20046	
+R4	absorption_decrease Arg1:T10010 Arg2:T10047	
+R5	absorption_decrease Arg1:T10010 Arg2:T10048	
+R6	absorption_decrease Arg1:T10011 Arg2:T20046	
+R7	absorption_decrease Arg1:T10011 Arg2:T10047	
+R8	absorption_decrease Arg1:T10011 Arg2:T10048	
+R9	absorption_decrease Arg1:T1008 Arg2:T10043	
+R10	absorption_decrease Arg1:T1009 Arg2:T10043	
+R11	absorption_decrease Arg1:T10017 Arg2:T10016	
+R12	absorption_decrease Arg1:T10051 Arg2:T10018	
+R14	absorption_decrease Arg1:T10031 Arg2:T10030	
+R15	absorption_decrease Arg1:T10032 Arg2:T10030	
+R16	absorption_decrease Arg1:T10031 Arg2:T10059	
+R17	absorption_decrease Arg1:T10032 Arg2:T10059	
+#1	AnnotatorNotes R17	interaction "théorique" : might affect...
+#2	AnnotatorNotes R16	interaction "théorique" : might affect...

@@ -1,0 +1,37 @@
+T1002	drug 34 46	dipyridamole
+T1004	drug 152 164	dipyridamole
+T1006	component 254 262	caffeine
+T1007	drug 315 324	adenosine
+T1009	component 435 443	caffeine
+T10013	mealTime 669 674	after
+T10014	mode 675 683	infusion
+T10015	component 687 695	caffeine
+T10016	dosage 697 704	4 mg/kg
+T10017	component 799 807	caffeine
+T10018	food 860 866	coffee
+T10019	drug 938 950	dipyridamole
+T10024	drug 377 389	dipiridamole
+T10025	population 415 426	one patient
+T10020	pathology 767 775	ischemia
+T10012	parameter 501 537	down-slope ST depressions on the ECG
+T1003	parameter 34 74	dipyridamole-induced myocardial ischemia
+T1005	parameter 377 411	dipiridamole-201Tl cardiac imaging
+T10026	parameter 455 495	dipyridamole induced myocardial ischemia
+T10011	parameter 579 590	scintigrams
+T10027	parameter 711 714	ECG
+T10029	parameter 734 745	scintigrams
+T10028	parameter 938 972	dipyridamole-201Tl cardiac imaging
+T10030	drugEffect 124 145	coronary vasodilation
+T2001	component 17 25	Caffeine
+T2008	component 350 358	caffeine
+T20010	drug 455 467	dipyridamole
+T20011	interaction 468 475	induced
+T20023	interaction 289 311	competitive antagonist
+T2003	interaction 26 33	reduces
+T2007	pathology 543 571	reversible perfusion defects
+T1	meal 435 454	caffeine abstinence
+T2	meal 799 818	caffeine abstinence
+#1	AnnotatorNotes T10027	exam clinique 
+R2	target_protein_antagonism Arg1:T10018 Arg2:T10019	
+#2	AnnotatorNotes R2	lié au mécanisme d'interaction supposé, décrit ligne 4 "competitive antagonist of adenosine"
+R3	target_protein_antagonism Arg1:T1006 Arg2:T1007	
